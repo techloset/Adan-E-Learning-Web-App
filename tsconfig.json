@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/Blog/components/RelatedBlogList.jsx", "app/Course/components/Dashboard.jsx", "app/Course/components/Recomended.jsx", "app/Course/components/Choices.jsx", "app/MemberShip/components/Dashboard.jsx", "app/MemberShip/components/Students.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/Blog/components/RelatedBlogList.jsx", "app/Course/components/Dashboard.jsx", "app/Course/components/Recomended.jsx", "app/Course/components/Choices.jsx", "app/MemberShip/components/Dashboard.jsx", "app/MemberShip/components/Students.jsx", "app/Search/components/Cards.jsx", "app/Search/page.jsx"],
   "exclude": ["node_modules"]
 }

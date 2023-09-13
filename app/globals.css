@@ -61,6 +61,12 @@ body,
 .MemberShipBoxShadow{
   box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.10)
 }
+.bgimageed{
+  background-image: url("/public/Search/search.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 
 
 }

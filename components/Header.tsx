@@ -10,7 +10,7 @@ function Header() {
             <div className='mb-0 flex justify-between px-20 pt-8  xl:flex sm:hidden xs:hidden md:hidden bg-white'>
                 <div className='flex items-center'>
                     <div className='flex justify-center text-center items-center pb-4 pr-2'>
-                        <Image src="/logo.svg" alt="Logo" width={80} height={80} className="w-18 h-18" />
+                        <Image src="/Logo.svg" alt="Logo" width={80} height={80} className="w-18 h-18" />
                     </div>
                 </div>
                 <div className='flex items-center'>

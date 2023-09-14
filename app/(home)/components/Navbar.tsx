@@ -7,7 +7,7 @@ function Navbar() {
     const [navbar, setNavbar] = useState(false);
     return (
         <>
-            <div className='mb-0 flex justify-between px-20 pt-8  lg:flex sm:hidden xs:hidden md:hidden bg-[#49BBBD]'>
+            <div className='mb-0 flex justify-between px-20 pt-8 xl:flex sm:hidden xs:hidden md:hidden bg-[#49BBBD]'>
                 <div className='flex items-center'>
                     <div className='flex justify-center text-center items-center pb-4 pr-2'>
                         <Image src="/header/logo.svg" alt="Logo" width={80} height={80} className="w-18 h-18" />
@@ -32,7 +32,7 @@ function Navbar() {
 
 
 
-            <nav className="w-full bg-[#49BBBD] lg:hidden">
+            <nav className="w-full bg-[#49BBBD] xl:hidden">
                 <div className="justify-between px-5 mx-auto lg:max-w-7xl lg:items-center  lg:flex lg:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 lg:py-5 lg:block">

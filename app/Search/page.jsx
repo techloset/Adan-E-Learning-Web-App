@@ -1,4 +1,4 @@
-
+"use client"
 import Card from './components/Card'
 import Education from '../CheckOut/components/Education';
 import Header from '@/components/Header';
@@ -336,9 +336,9 @@ const Searchpage = () => {
 
 
                 <div className='grid 2xl:grid-cols-3 md:grid-cols-2  gap-y-36  gap-x-6  mx-8 lg:mx-20'>
-                    {creators.map((card) => {
+                    {creators.map((card,index) => {
                         return (
-                            <div className="shadow-2xl relative max-w-md mx-auto h-[300px] lg:w-[400px] xl:w-[430px] sm:w-[450px] w-[300px] ">
+                            <div className="shadow-2xl relative max-w-md mx-auto h-[300px] lg:w-[400px] xl:w-[430px] sm:w-[450px] w-[300px] " key={index}>
 
                                 <div className="bg-white shadow-inner py-5 px-6">
                                     <br /><br /><br /><br /><br />
@@ -372,9 +372,7 @@ const Searchpage = () => {
                                 Lorem ipsum dolor sit amet, consectetur adipising elit, <br /> sed do eiusmod tempor</p>
                             <br />
                             <div className='flex'>
-                                <button
-                                    className="mb-2 inline-block bg-[#49BBBD] rounded-full p-3 mx-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-                                >
+                                <button  className="mb-2 inline-block bg-[#49BBBD] rounded-full p-3 mx-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"  >
                                     <span className='hidden'>a</span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -386,9 +384,7 @@ const Searchpage = () => {
                                     </svg>
                                 </button>
 
-                                <button
-                                    className="mb-2 inline-block bg-[#49BBBD] rounded-full p-3 mx-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-                                >
+                                <button     className="mb-2 inline-block bg-[#49BBBD] rounded-full p-3 mx-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg" >
                                     <span className='hidden'>a</span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -400,9 +396,7 @@ const Searchpage = () => {
                                     </svg>
                                 </button>
 
-                                <button
-                                    className="mb-2 inline-block bg-[#49BBBD] rounded-full p-3 mx-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-                                >
+                                <button  className="mb-2 inline-block bg-[#49BBBD] rounded-full p-3 mx-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg" >
                                     <span className='hidden'>a</span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"

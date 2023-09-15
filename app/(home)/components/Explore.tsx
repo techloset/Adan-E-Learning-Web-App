@@ -85,7 +85,7 @@ const Explore = () => {
                     </div>
                     {/* Books */}
                     <div>
-                    <Image src="/homepage/Explore/BookThree.png"
+                    <Image src="/homepage/Explore/bookThree.png"
                      alt='BookOne' height={6000} width={6000}/>
                     </div>
                 </div>

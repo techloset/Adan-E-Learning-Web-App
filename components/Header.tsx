@@ -52,7 +52,7 @@ function Header() {
                         <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
                             <div className="logo lg:col-span-3 my-auto sm:col-span-6">
                                 <div className='flex '>
-                                    <Image src="/logo.svg" alt="Logo" width={80} height={80} className="w-20 h-20" />      
+                                    <Image src="/Logo.svg" alt="Logo" width={80} height={80} className="w-20 h-20" />      
                                 </div>
                             </div>
                             <div className="lg:hidden">

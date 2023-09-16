@@ -1,5 +1,8 @@
+"use client"
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 const Dashboard = () => {
+    const router= useRouter()
     return (
         <div className='bg-[#9DCCFF] bg-opacity-[0.2]'>
             <div className='py-10 grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-10    mx-auto  2xl:w-[90%]  xl:w-[85%]  lg:w-[85%]  md:w-[90%]  sm:w-[98%]  xs:w-[98%%]  '>
@@ -9,7 +12,7 @@ const Dashboard = () => {
                     <p className='text-[#696984] leading-[180%] font-[400]  tracking-[0.48px] 2xl:text-[24px] xl:text-[22px] lg:text-[20px] md:text-[18px] sm:text-[16px] xs:text-[14px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit,
                         sed do eiusmod tempor</p>
-                    <button className='text-[16px]  text-[#fff] bg-[#49BBBD] font-bold leading-[normal] w-[236px] h-[63px] rounded-[12px]'>Start learning now</button>
+                    <button className='text-[16px]  text-[#fff] bg-[#49BBBD] font-bold leading-[normal] w-[236px] h-[63px] rounded-[12px]' onClick={()=>router.push("/Blog/Details")}>Start learning now</button>
                 </div>
                 <div>
                     <Image

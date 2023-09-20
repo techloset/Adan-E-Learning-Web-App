@@ -1,12 +1,12 @@
 import Image from "next/image"
 const Success = () => {
     return (
-        <div className='w-[80%] mx-auto mt-20 font-[Buenos-Aires-Trial] mb-10'>
+        <div className='w-[90%] mx-auto mt-20  mb-10'>
             {/* Heading */}
             <div className='text-center  space-y-3 '>
-                <h2 className='text-[49px] font-bold leading-[160%] Blacktext font-[Buenos-Aires-Trial]'> Our Success</h2>
+                <h2 className='text-[49px] font-bold leading-[160%] Blacktext '> Our Success</h2>
                 <div className='flex items-center justify-center text-center'>
-                    <p className='max-w-[750px] flex  text-[18px] font-[400] leading-[160%] Blacktext font-[Buenos-Aires-Trial]'>Ornare id fames interdum porttitor nulla turpis etiam. Diam vitae sollicitudin
+                    <p className='max-w-[750px] flex  text-[18px] font-[400] leading-[160%] Blacktext '>Ornare id fames interdum porttitor nulla turpis etiam. Diam vitae sollicitudin
                         at nec nam et pharetra gravida. Adipiscing a quis ultrices eu ornare tristique vel
                         nisl orci. </p>
                 </div>

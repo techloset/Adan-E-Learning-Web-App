@@ -11,7 +11,7 @@ const Coursepage = () => {
         <Dashboard/>
         <Courses/>
         <Recomended/>
-        <Choices Heading="Get choice of your course" Bg=""/>
+        <Choices Heading="Get choice of your course" Bg="" />
         <StartNow/>
         <Choices Heading="The course in personal development"  Bg=""/>
         <Choices Heading="Student are viewing"  Bg="bg-[#9DCCFF]"/>

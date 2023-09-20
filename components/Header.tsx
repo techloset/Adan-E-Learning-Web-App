@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import Dropdown from "./Dropdown";
 
 
 function Header() {
@@ -11,21 +12,21 @@ function Header() {
         <>
             <div className='mb-0 flex justify-between px-20 pt-8  xl:flex sm:hidden xs:hidden md:hidden bg-white'>
                 <div className='flex items-center'>
-                    <div className='flex justify-center text-center items-center pb-4 pr-2 '>
-                        <Image src="/Logo.svg" alt="Logo" width={80} height={80} className="w-18 h-18" />
+                    <div className='flex justify-center text-center items-center mb-4 pr-2 '>
+                        <Image src="/Logo.svg" alt="Logo" width={80} height={80} className="w-[114px] h-[83px]" />
                     </div>
                 </div>
-                <div className='flex items-center'>
+                <div className='flex items-center pb-3'>
                     <div>
-                        <ul className='flex'>
-                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#5B5B5B] mr-[40px]  cursor-pointer' onClick={()=> router.push("/")}>Home</li>
-                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#5B5B5B] mr-[40px]  cursor-pointer' onClick={()=> router.push("/Course")}>Courses</li>
-                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#5B5B5B] mr-[40px]  cursor-pointer' onClick={()=> router.push("/Search")}>Careers</li>
-                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#5B5B5B] mr-[40px]  cursor-pointer' onClick={()=> router.push("/Blog")}>Blog</li>
-                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#5B5B5B] mr-[60px]  cursor-pointer' onClick={()=> router.push("/Literature")}>About Us</li>
+                        <ul className='flex '>
+                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#5B5B5B] mr-[55px]  cursor-pointer' onClick={()=> router.push("/")}>Home</li>
+                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#5B5B5B] mr-[55px]  cursor-pointer' onClick={()=> router.push("/Course")}>Courses</li>
+                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#5B5B5B] mr-[55px]  cursor-pointer' onClick={()=> router.push("/Search")}>Careers</li>
+                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#5B5B5B] mr-[55px]  cursor-pointer' onClick={()=> router.push("/Blog")}>Blog</li>
+                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#5B5B5B] mr-[75px]  cursor-pointer' onClick={()=> router.push("/Literature")}>About Us</li>
                         </ul>
                     </div>
-                    <div className="gap-3 flex items-center ">
+                    {/* <div className="gap-3 flex items-center xl:mr-[15px] sm:mr-1">
                         <div className='w-[44px] h-[44px] rounded-full flex items-center  bg-[#D9D9D9]'>
                             <Image
                                 src="/Profile/Profile.svg"
@@ -41,7 +42,8 @@ function Header() {
                             height={24}
                             width={24}
                             className="h-[18px] w-[18px] " />
-                    </div>
+                    </div> */}
+                    <Dropdown/>
                 </div>
             </div>
 

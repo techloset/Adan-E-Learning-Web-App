@@ -35,7 +35,7 @@ const RelatedBlogList = () => {
                 {/* Destop View */}
                 <div className='py-5 2xl:grid xl:grid lg:grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-2 md:hidden   sm:hidden xs:hidden gap-10    mx-auto 2xl:w-[90%]  xl:w-[85%]  lg:w-[85%]  md:w-[90%]  sm:w-[98%]  xs:w-[98%%]  '>
                     {cardData.map((card, index) => (
-                        <div className='rounded-[20px] p-2 bg-cover bg-center bg-no-repeat 2xl:w-[356px] h-[327px] flex justify-center items-end' style={{ backgroundImage: `url(${card.image})` }} key={index}>
+                        <div className='rounded-[20px] p-2 bg-cover bg-center bg-no-repeat 2xl:w-[356px] h-[327px] flex justify-center items-end pb-[1.75rem]' style={{ backgroundImage: `url(${card.image})` }} key={index}>
                             <button className='flex justify-center items-center  rounded-[12px] h-[63px] BlogRelatedBolgsBg BlogRelatedBolgstext text-[24px] font-[700] w-[236px] leading-[normal]'> {card.title}</button>
                         </div>
                     ))}
@@ -53,8 +53,11 @@ const RelatedBlogList = () => {
                         {cardData.map((card, index) => (
                             <div key={index} >
                                 <div
-                                    className='mx-auto bg-cover bg-center bg-no-repeat flex items-end justify-center w-[356px] h-[327px] p-4' style={{ backgroundImage: `url(${card.image})` }}>
-                                    <button className=' flex justify-center items-center  rounded-[12px] h-[63px] BlogRelatedBolgsBg BlogRelatedBolgstext text-[24px] font-[700] w-[236px] leading-[normal]'>
+                                    className='mx-auto bg-cover bg-center bg-no-repeat flex items-end justify-center w-[356px] h-[327px] px-10' style={{ backgroundImage: `url(${card.image})` }}>
+
+                                    <button className=' flex justify-center items-center  
+                                    rounded-[12px] h-[63px] BlogRelatedBolgsBg BlogRelatedBolgstext 
+                                    text-[24px] font-[700] w-[236px] leading-[normal] '>
                                         {card.title}
                                     </button>
                                 </div>

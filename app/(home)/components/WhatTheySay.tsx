@@ -3,11 +3,11 @@ const WhatTheySay = () => {
     return (
         <div className='mt-40'>
             <div className='mt-20 grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-10 justify-between   mx-auto 2xl:w-[80%]  xl:w-[85%]  lg:w-[85%]  md:w-[90%]  sm:w-[98%]  xs:w-[98%%]  '>
-                <div className='flex flex-col mx-auto'>
+                <div className='flex flex-col '>
                     <div className='flex gap-6  items-center'>
-                        <hr className='border-[1px] border-[#525596] w-[80px]' /><h5 className='text-[#525596] font-[Nunito-Sans] font-[400] leading-[normal] text-[20px] tracking-[4px]'>TESTIMONIAL</h5>
+                        <hr className='border-[1px] border-[#525596] w-[80px]' /><h5 className='text-[#525596]  font-[400] leading-[normal] text-[20px] tracking-[4px]'>TESTIMONIAL</h5>
                     </div>
-                    <h1 className='mt-10 text-[#2F327D] font-bold leading-[normal] text-[60px] font-[Nunito-Sans]'>What They Say?</h1>
+                    <h1 className='mt-10 text-[#2F327D] font-bold leading-[normal] text-[60px] '>What They Say?</h1>
                     <p className='mt-8 max-w-[607px] text-[26px] font-[400] text-[#696984] tracking-[0.51px] leading-[160%]'>TOTC has got more than 100k positive ratings from our users around the world. </p>
                     <p className='mt-4 max-w-[573px] text-[26px] font-[400] text-[#696984] tracking-[0.51px] leading-[160%]'>Some of the students and teachers were greatly helped by the Skilline.</p>
                     <p className='mt-6 text-[26px] font-[400] text-[#696984] tracking-[0.51px] leading-[160%]'>Are you too? Please give your assessment</p>

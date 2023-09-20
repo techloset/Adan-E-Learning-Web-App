@@ -8,8 +8,8 @@ const Explore = () => {
             <div className=' pt-60 relative 2xl:ml-[10%] xl:ml-[10%] lg:ml-[5%] md:ml-[5%]  sm:ml-[2%] xs:ml-[2%]'>
                 {/* Heading */}
                 <div>
-                    <h1 className='text-[44px] homeExploreBlacktext font-bold leading-[normal] font-[Roboto]'>Explore Course</h1>
-                    <p className='text-[24px] homeExploreBlacktextTwo font-[500] leading-[normal] font-[Roboto]'>Ut sed eros finibus, placerat orci id, dapibus.</p>
+                    <h1 className='text-[44px] homeExploreBlacktext font-bold leading-[normal] '>Explore Course</h1>
+                    <p className='text-[24px] homeExploreBlacktextTwo font-[500] leading-[normal] '>Ut sed eros finibus, placerat orci id, dapibus.</p>
                 </div>
                 {/* BookOne */}
                 <div className='mt-20'>
@@ -22,9 +22,9 @@ const Explore = () => {
                                 height={30}
                                 width={30}
                                />
-                            <h3 className='homeExploreBlacktextThree font-[Roboto] 2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-bold leading-[normal]'>Lorem Ipsum</h3>
+                            <h3 className='homeExploreBlacktextThree  2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-bold leading-[normal]'>Lorem Ipsum</h3>
                         </div>
-                        <button className='text-[#00BCD4]  2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-[500] leading-[normal] uppercase font-[Roboto] cursor-pointer flex gap-8 items-center'>
+                        <button className='text-[#00BCD4]  2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-[500] leading-[normal] uppercase cursor-pointer flex gap-8 items-center'>
                             <p> See all</p>
                             <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none" className='w-auto h-auto'>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947266 18.8256H25.2563L14.0518 30.0542L16.9533 32.8612L32.9594 16.8205L16.9533 0.779785L14.1525 3.58681L25.2563 14.8154H0.947266V18.8256Z" fill="#00BCD4" />
@@ -48,9 +48,9 @@ const Explore = () => {
                                 height={30}
                                 width={30}
                                />
-                            <h3 className='homeExploreBlacktextThree font-[Roboto] 2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-bold leading-[normal]'>Quisque a Consequat</h3>
+                            <h3 className='homeExploreBlacktextThree  2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-bold leading-[normal]'>Quisque a Consequat</h3>
                         </div>
-                        <button className='text-[#00BCD4]  2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-[500] leading-[normal] uppercase font-[Roboto] cursor-pointer flex gap-8 items-center'>
+                        <button className='text-[#00BCD4]  2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-[500] leading-[normal] uppercase  cursor-pointer flex gap-8 items-center'>
                             <p> See all</p>
                             <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none" className='w-auto h-auto'>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947266 18.8256H25.2563L14.0518 30.0542L16.9533 32.8612L32.9594 16.8205L16.9533 0.779785L14.1525 3.58681L25.2563 14.8154H0.947266V18.8256Z" fill="#00BCD4" />
@@ -74,9 +74,9 @@ const Explore = () => {
                                 height={30}
                                 width={30}
                                />
-                            <h3 className='homeExploreBlacktextThree font-[Roboto] 2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-bold leading-[normal]'>Aenean Facilisis</h3>
+                            <h3 className='homeExploreBlacktextThree 2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-bold leading-[normal]'>Aenean Facilisis</h3>
                         </div>
-                        <button className='text-[#00BCD4]  2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-[500] leading-[normal] uppercase font-[Roboto] cursor-pointer flex gap-8 items-center'>
+                        <button className='text-[#00BCD4]  2xl:text-[28px] xl:text-[28px] lg:text-[18px] md:text-[18px]  sm:text-[18px]  xs:text-[15px] font-[500] leading-[normal] uppercase  cursor-pointer flex gap-8 items-center'>
                             <p> See all</p>
                             <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none" className='w-auto h-auto'>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947266 18.8256H25.2563L14.0518 30.0542L16.9533 32.8612L32.9594 16.8205L16.9533 0.779785L14.1525 3.58681L25.2563 14.8154H0.947266V18.8256Z" fill="#00BCD4" />

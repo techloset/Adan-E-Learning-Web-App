@@ -84,7 +84,7 @@ const Feature = () => {
                         height={1000} /></div>
             </div>
             {/* Card Three */}
-            <div className='mt-20 grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-10    mx-auto 2xl:w-[80%]  xl:w-[85%]  lg:w-[85%]  md:w-[90%]  sm:w-[98%]  xs:w-[98%%]  '>
+            <div className='mt-[7rem] grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-10    mx-auto 2xl:w-[80%]  xl:w-[85%]  lg:w-[85%]  md:w-[90%]  sm:w-[98%]  xs:w-[98%%]  '>
                 <div>
                     <Image
                         src="homepage/Feature/CardThree/View.svg"
@@ -92,9 +92,9 @@ const Feature = () => {
                         width={1500}
                         height={1500} />
                 </div>
-                <div className='flex flex-col space-y-4 justify-center mx-auto'>
+                <div className='flex flex-col space-y-4 justify-center 2xl:pb-40 sm:pb-2 xs:pb-2 mx-auto pb-3'>
                     <h1 className='text-[40px] font-[600] leading-[160%]  text-[#2F327D]  max-w-[347px]'> Assessments, <span className='text-[#00CBB8]'> Quizzes</span>, Tests</h1>
-                    <p className='text-[#696984] text-[22px] font-[400] leading-[180%] tracking-[0.44px] max-w-[596px]'>Easily launch live assignments, quizzes, and tests.
+                    <p className='text-[#696984] text-[22px] font-[400] leading-[180%] tracking-[0.44px] max-w-[596px]'>Easily launch live assignments, quizzes, and <br/>tests.
                         Student results are automatically entered in the online gradebook.</p>
                 </div>
 

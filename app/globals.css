@@ -10,6 +10,12 @@ body,
 
 
 @layer components {
+
+  .bghomeBlueBg{
+    background-image: url("/public/homepage/Dashboard/Bluebg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .TransparentBg{
   background: rgba(255, 255, 255, 0.30);
 }
@@ -67,6 +73,7 @@ body,
   background-size: cover;
   
 }
+
 
 
 }

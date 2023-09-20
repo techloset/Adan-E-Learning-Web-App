@@ -98,23 +98,27 @@ const Marketing = () => {
     }
 
     return (
-        <div className='2xl:mt-20 xl:mt-16 lg:mt-12 md:mt-10 sm:mt-8 xs:mt-6 2xl:w-[90%]  xl:w-[95%]  lg:w-[95%]  md:w-[98%]  sm:w-[98%]  xs:w-[100%%] max-w-[98%] mx-auto'>
+        <div className='2xl:mt-20 xl:mt-16 lg:mt-12 md:mt-10 sm:mt-8 xs:mt-6 2xl:w-[95%]  xl:w-[95%]  lg:w-[95%]  md:w-[98%]  sm:w-[98%]  xs:w-[100%%] max-w-[98%] mx-auto'>
             {/* Heading */}
-            <div className='flex justify-between      2xl:w-[90%]  xl:w-[85%]  lg:w-[85%]  md:w-[90%]  sm:w-[95%]  xs:w-[100%%] max-w-[98%] mx-auto' >
+            <div className='flex justify-between      2xl:w-[98%]  mx-auto' >
                 <h3 className='text-[#000] font-[500] leading-[normal] tracking-[0.6px] 2xl:text-[30px] xl:text-[27px] lg:text-[24px] md:text-[21px] sm:text-[18px] xs:text-[15px] '>Marketing Articles</h3>
                 <p className='text-[#49BBBD] 2xl:text-[20px] xl:text-[18px]  lg:text-[16px]  md:text-[14px]  sm:text-[12px] xs:text-[10px] font-[700] leading-[normal]'>See all</p>
             </div>
-            <div className='flex flex-col gap-3'>
+            <div className='flex flex-col gap-3 2xl:w-[95%] sm:w-auto xs:w-auto mx-auto'>
                 <Slider {...settings} className="w-[100%] h-auto my-4">
                     {cardData.map((item, index) => (
                         <div key={index}>
-                            <div className='bg-white mx-auto max-w-[374px] w-auto
+                            <div className='bg-white mx-auto max-w-[374px] !h-[617px] w-auto
                               rounded-[20px] 2xl:p-8 xl:p-6 lg:p-4 md:p-2 sm:p-2 xs:p-2 
-                                 BlogRelatedBolgsBg2 flex flex-col justify-center my-8  '>
+                                 BlogRelatedBolgsBg2 flex flex-col justify-center my-8  
+                                 width: 374px;
+height: 617px;
+flex-shrink: 0;'>
                                 <Image src={item.URL}
                                     alt=''
                                     height={350}
-                                    width={350} />
+                                    width={350} 
+                                    />
                                 <div className='flex justify-between items-center mt-3'>
                                     <div className='flex justify-center items-center gap-1'>
                                         <Image

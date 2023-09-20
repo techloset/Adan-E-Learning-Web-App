@@ -39,14 +39,14 @@ const Authpage = () => {
             <p className='text-[#fff] text-[25px] font-[400] leading-[normal]'>Lorem Ipsum is simply  </p>
           </div>
         </div>
-        <div className='justify-center items-center flex flex-col 2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full xs:w-full'>
+        <div className='justify-center  my-20 items-center flex flex-col 2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full xs:w-full'>
           {/* Headings */}
           <h1 className='text-[#000] text-[16px] font-[400] leading-[normal] text-center'>Welcome to lorem..!</h1>
           <div className='mt-6 2xl:w-[329px] xl:w-[329px] lg:w-[329px] md:w-[315px]  sm:w-[315px]  xs:w-[315px] h-[59px]  rounded-[33px] AuthLoginBlueBg flex items-center justify-between px-3 gap-1'>
             <button className={`${variant == "LOGIN" ? "bg-[#49BBBD]" : ""} text-[#fff] font-[500] text-[16px] leading-[normal]  rounded-[33px] h-[40px] 2xl:w-[146px] xl:w-[146px] lg:w-[146px] md:w-[139.787px]  sm:w-[139.787px]  xs:w-[139.787px] flex items-center text-center ju justify-center`} onClick={toggleVariant}>Login</button>
             <button className={`${variant == "REGISTER" ? "bg-[#49BBBD]" : ""} text-[#fff] font-[500] text-[16px] h-[40px] 2xl:w-[146px] xl:w-[146px] lg:w-[146px] md:w-[139.787px]  sm:w-[139.787px]  xs:w-[139.787px] leading-[normal] rounded-[33px]  flex items-center text-center  justify-center`} onClick={toggleVariant}>Register</button>
           </div>
-          <h5 className='mt-10 text-[#5B5B5B] text-[16px] font-[400] leading-[normal] max-w-[454px] min-w-[331px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+          <h5 className='mt-16 flex items-center justify-center text-[#5B5B5B] text-[16px] font-[400] leading-[normal] max-w-[454px] min-w-[331px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
           {/* AuthForm */}
           <form className='mt-10 space-y-9'>
             {variant == "REGISTER" && (

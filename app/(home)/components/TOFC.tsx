@@ -1,5 +1,8 @@
+"use client"
 import Image from "next/image"
+import { useRouter } from "next/navigation"
 const Tofc = () => {
+    const router=useRouter()
     return (
         <div className=' mt-20 '>
             {/* Heading */}
@@ -24,7 +27,7 @@ const Tofc = () => {
                 <div className="max-w-[600px] w-auto bg-no-repeat h-[400px]  rounded-[24px] bg-cover" style={{ backgroundImage: 'url(/homepage/Tofc/CardImgTwo.svg)' }} >
                     <div className="w-full flex items-center justify-center h-full flex-col gap-5">
                         <p className="text-[#FFF] text-[32px] font-semibold leading-[normal]">FOR STUDENTS</p>
-                        <button className="w-[283px] h-[80px] homeTofcBlueOpacity  rounded-[80px] text-[22px] font-[500] text-center  leading-[normal]">Start a class today</button>
+                        <button onClick={()=> router.push("/Meeting")} className="w-[283px] h-[80px] homeTofcBlueOpacity  rounded-[80px] text-[22px] font-[500] text-center  leading-[normal] hover:bg-cyan-800 hover:border-cyan-300 hover:text-cyan-300 hover:border-2" >Enter access code</button>
                     </div>
                 </div>
 

@@ -100,7 +100,7 @@ const Choices = ({ Heading, Bg }) => {
 
     return (
         <div className={`${Bg} bg-opacity-[0.20]`}>
-            <div className='2xl:py-10 xl:py-8 lg:py-6 md:py-5 sm:py-4 xs:py-3 2xl:w-[90%]  xl:w-[85%]  lg:w-[85%]  md:w-[90%]  sm:w-[95%]  xs:w-[95%%] max-w-[98%] mx-auto'>
+            <div className='2xl:py-20 xl:py-10 lg:py-8 md:py-5 sm:py-4 xs:py-3 2xl:w-[90%]  xl:w-[85%]  lg:w-[85%]  md:w-[90%]  sm:w-[95%]  xs:w-[95%%] max-w-[98%] mx-auto'>
                 {/* Heading */}
                 <div className='flex justify-between  mx-auto pl-5 pr-10' >
                     <h3 className='text-[#000] font-[500] leading-[normal] tracking-[0.6px] 2xl:text-[30px] xl:text-[27px] lg:text-[24px] md:text-[21px] sm:text-[18px] xs:text-[15px] '>{Heading}</h3>
@@ -110,12 +110,12 @@ const Choices = ({ Heading, Bg }) => {
                     <Slider {...settings} className="my-2">
                         {cardData.map((item, index) => (
                             <div key={index}>
-                                <div className='bg-white mx-auto max-w-[374px] w-auto rounded-[20px] 2xl:p-8 xl:p-6 lg:p-4 md:p-2 sm:p-2 xs:p-2  BlogRelatedBolgsBg2 flex flex-col justify-center my-10'>
+                                <div className='bg-white mx-auto max-w-[374px]  !h-[617px] w-auto rounded-[20px] 2xl:px-6 xl:px-6 lg:px-4 md:px-2 sm:px-2 xs:px-2  BlogRelatedBolgsBg2 flex flex-col py-6 my-10'>
                                     <Image src={item.URL}
                                         alt=''
                                         height={400}
                                         width={400}
-                                        className='h-[239px] w-[335px]' />
+                                        />
                                     <div className='flex justify-between items-center mt-3'>
                                         <div className='flex justify-center items-center gap-1'>
                                             <Image

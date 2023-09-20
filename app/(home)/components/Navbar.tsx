@@ -9,25 +9,25 @@ function Navbar() {
     const router = useRouter()
     return (
         <>
-            <div className='mb-0 flex justify-between px-20 pt-8 xl:flex sm:hidden xs:hidden md:hidden bg-[#49BBBD]'>
+            <div className='flex justify-between px-20 pt-8 xl:flex sm:hidden xs:hidden md:hidden bg-[#49BBBD] -mb-4 pb-4'>
                 <div className='flex items-center'>
-                    <div className='flex justify-center text-center items-center pb-4 pr-2'>
-                        <Image src="/header/logo.svg" alt="Logo" width={80} height={80} className="w-18 h-18" />
+                    <div className='flex justify-center text-center items-center  pr-2'>
+                        <Image src="/header/logo.svg" alt="Logo" width={80} height={80} className="w-[114px] h-[83px]" />
                     </div>
 
                 </div>
                 <div className='flex items-center'>
                     <div>
                         <ul className='flex'>
-                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#fff] mr-[40px]  cursor-pointer' onClick={() => router.push("/")}>Home</li>
-                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#fff] mr-[40px]  cursor-pointer' onClick={() => router.push("/Course")}>Courses</li>
-                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#fff] mr-[40px]  cursor-pointer' onClick={() => router.push("/Search")}>Careers</li>
-                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#fff] mr-[40px]  cursor-pointer' onClick={() => router.push("/Blog")}>Blog</li>
-                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#fff] mr-[60px]  cursor-pointer' onClick={() => router.push("/Literature")}>About Us</li>
+                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#fff] mr-[55px]  cursor-pointer' onClick={() => router.push("/")}>Home</li>
+                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#fff] mr-[55px]  cursor-pointer' onClick={() => router.push("/Course")}>Courses</li>
+                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#fff] mr-[55px]  cursor-pointer' onClick={() => router.push("/Search")}>Careers</li>
+                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#fff] mr-[55px]  cursor-pointer' onClick={() => router.push("/Blog")}>Blog</li>
+                            <li className='text-[22px] font-[400] leading-[normal] tracking-[0.44px] text-[#fff] mr-[75px]  cursor-pointer' onClick={() => router.push("/Literature")}>About Us</li>
                         </ul>
                     </div>
                     <div className='mr-[30px]'><button className='text-[22px] tracking-[0.44px] font-[500]  leading-[normal] w-[160px] h-[60px] rounded-[80px] bg-white text-[#5B5B5B]' onClick={() => router.push("/Auth")}>Login</button></div>
-                    <div><button className='text-[22px] tracking-[0.44px] font-[500]  leading-[normal] w-[160px] h-[60px] rounded-[80px] TransparentBg text-white' onClick={() => router.push("/Auth")}>Sign Up</button></div>
+                    <div><button className='text-[22px] tracking-[0.44px] font-[500]  leading-[normal] w-[160px] h-[60px] rounded-[80px] TransparentBg text-white xl:mr-[30px] sm:mr-1' onClick={() => router.push("/Auth")}>Sign Up</button></div>
                 </div>
             </div>
 

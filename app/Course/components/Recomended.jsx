@@ -131,14 +131,14 @@ const Recomended = () => {
                 <Slider ref={slider} {...settings} className="my-5">
                     {cardData.map((item, index) => (
                         <div key={index}>
-                            <div className='bg-white my-10 mx-auto max-w-[374px]  
-                            w-auto rounded-[20px] 2xl:p-8 xl:p-6 lg:p-4 md:p-2 sm:p-2 xs:p-2  
+                            <div className='bg-white my-10 mx-auto max-w-[374px]   !h-[617px]
+                            w-auto rounded-[20px] 2xl:p-6 xl:p-6 lg:p-4 md:p-2 sm:p-2 xs:p-2  
                             BlogRelatedBolgsBg2 flex flex-col justify-center '>
                                 <Image src={item.URL}
                                     alt=''
                                     height={350}
                                     width={350} 
-                                    className='h-[239px] w-[335px]'/>
+                                   />
                                 <div className='flex justify-between items-center mt-3'>
                                     <div className='flex justify-center items-center gap-1'>
                                         <Image
@@ -183,8 +183,8 @@ const Recomended = () => {
                     ))}
                 </Slider>
 
-                <div className="2xl:flex xl:flex lg:flex md:hidden sm:hidden xs:hidden justify-end items-center gap-2 2xl:mt-4 xl:mt-3 lg:mt-2 md:mt-1 sm:mt-1 xs:mt-1 2xl:mx-10 xl:mx-6 lg:mx-4 md:mx-2 sm:mx-2 xs:mx-2">
-                    <div onClick={() => slider?.current?.slickPrev()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD]">
+                <div className="2xl:flex xl:flex lg:flex md:hidden sm:hidden xs:hidden justify-end items-center gap-4 2xl:mt-4 xl:mt-3 lg:mt-2 md:mt-1 sm:mt-1 xs:mt-1 2xl:mx-10 xl:mx-6 lg:mx-4 md:mx-2 sm:mx-2 xs:mx-2">
+                    <div onClick={() => slider?.current?.slickPrev()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD] opacity-50 rounded">
                         <Image
                             src="/before.png"
                             alt="Next"
@@ -192,7 +192,7 @@ const Recomended = () => {
                             width={24}
                             className="w-[24px] h-[24px]" />
                     </div>
-                    <div onClick={() => slider?.current?.slickNext()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD]">
+                    <div onClick={() => slider?.current?.slickNext()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD] rounded">
                         <Image
                             src="/Next.png"
                             alt="Next"

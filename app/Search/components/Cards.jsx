@@ -106,12 +106,12 @@ const Cards = () => {
                     <Slider {...settings} className="my-2">
                         {cardData.map((item, index) => (
                             <div key={index}>
-                                <div className='bg-white mx-auto max-w-[374px] w-auto rounded-[20px] 2xl:p-8 xl:p-6 lg:p-4 md:p-2 sm:p-2 xs:p-2  BlogRelatedBolgsBg2 flex flex-col justify-center my-10'>
+                                <div className='bg-white !h-[617px] mx-auto max-w-[374px] w-auto rounded-[20px] 2xl:p-6 xl:p-6 lg:p-4 md:p-2 sm:p-2 xs:p-2  BlogRelatedBolgsBg2 flex flex-col justify-center my-10'>
                                     <Image src={item.URL}
                                         alt=''
                                         height={400}
                                         width={400}
-                                        className='h-[239px] w-[335px]' />
+                                         />
                                     <div className='flex justify-between items-center mt-3'>
                                         <div className='flex justify-center items-center gap-1'>
                                             <Image

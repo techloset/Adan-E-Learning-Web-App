@@ -17,13 +17,13 @@ const CloudSoftware = () => {
             <div className='mt-20 grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 justify-center items-center  mx-auto 2xl:w-[75%]  xl:w-[80%]  lg:w-[90%]  md:w-[95%]  sm:w-[98%]  xs:w-[98%%]  '>
 
 
-                <div className='relative homeCloudBlackBorder rounded-[40px] min-h-[430px]  max-w-[450px] w-auto mx-auto flex flex-col justify-end px-10 py-5'>
+                <div className='relative homeCloudBlackBorder rounded-[40px] min-h-[430px]  max-w-[450px] w-auto mx-auto flex flex-col justify-end px-10 py-10'>
                     <Image
                         src="/homepage/CloudSoftware/CardOne.svg"
                         alt=""
                         height={150}
                         width={150}
-                        className='absolute top-[-15%] left-[35%]' />
+                        className='absolute top-[-17%] left-[33%]' />
                     <div className='pt-3 relative'>
                         <h3 className='text-center text-[#2F327D] text-[30px] font-[500] leading-[normal] mb-3'>Online Billing, <br />Invoicing, & Contracts</h3>
                              <div className='flex flex-col justify-center items-center text-center w-full'>
@@ -34,13 +34,13 @@ const CloudSoftware = () => {
 
                 </div>
               
-                <div className='relative homeCloudBlackBorder rounded-[40px] min-h-[430px]  max-w-[450px] w-auto mx-auto flex flex-col justify-end px-10 py-5'>
+                <div className='relative homeCloudBlackBorder rounded-[40px] min-h-[430px]  max-w-[450px] w-auto mx-auto flex flex-col justify-end px-10 py-10'>
                     <Image
-                        src="/homepage/CloudSoftware/CardTwo.svg"
+                        src="/homepage/CloudSoftware/CardThree.svg"
                         alt=""
                         height={150}
                         width={150}
-                        className='absolute top-[-15%] left-[35%]' />
+                        className='absolute top-[-17%] left-[33%]' />
                     <div className='pt-3 relative'>
                         <h3 className='text-center text-[#2F327D] text-[30px] font-[500] leading-[normal] mb-3'>Easy Scheduling &<br/> Attendance Tracking</h3>
                         <div className='flex flex-col justify-center items-center text-center w-full'>
@@ -51,13 +51,13 @@ const CloudSoftware = () => {
 
                 </div>
               
-                <div className='relative homeCloudBlackBorder rounded-[40px] min-h-[430px]  max-w-[450px] w-auto mx-auto flex flex-col justify-end px-10 py-5'>
+                <div className='relative homeCloudBlackBorder rounded-[40px] min-h-[430px]  max-w-[450px] w-auto mx-auto flex flex-col justify-end px-10 py-10'>
                     <Image
-                        src="/homepage/CloudSoftware/CardThree.svg"
+                        src="/homepage/CloudSoftware/CardTwo.svg"
                         alt=""
                         height={150}
                         width={150}
-                        className='absolute top-[-15%] left-[35%]' />
+                        className='absolute top-[-17%] left-[33%]' />
                     <div className='pt-3 relative space-y-8'>
                         <h3 className='text-center text-[#2F327D] text-[30px] font-[500] leading-[normal] mb-3'>Customer Tracking</h3>
                         <div className='flex flex-col justify-center items-center text-center w-full'>

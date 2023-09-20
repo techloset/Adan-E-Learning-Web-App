@@ -78,6 +78,7 @@ const Literaturepage = () => {
     const getPageNumbers = () => {
         const pageNumbers = [];
         let startPage = Math.max(currentPage - halfVisiblePages, 1);
+        
         let endPage = Math.min(startPage + visiblePages - 1, totalPages);
 
         if (endPage - startPage < visiblePages - 1) {
@@ -106,11 +107,11 @@ const Literaturepage = () => {
                     >
                         <div className=" bg-white  bg-opacity-80 p-5 2xl:p-12 h-full flex flex-col justify-end">
                             <div className='flex flex-col md:flex-row  justify-between'>
-                                <p className='text-3xl font-medium '>John Anderson</p>
-                                <button className='bg-[#49BBBD] mt-4  md:mt-0 px-6 py-3 text-white text-2xl font-semibold rounded-xl '>Enroll Now</button>
+                                <p className='text-black tracking-[0.6px] text-[30px] leading-[normal] font-medium '>John Anderson</p>
+                                <button className='text-white py-2 px-2 flex justify-center items-center font-bold leading-[normal] rounded-xl text-2xl bg-[#49BBBD] max-w-[183.163px] h-[63px]'>Enroll Now</button>
                             </div>
-                            <p className='text-[#2D3436B2] mt-4  md:mt-0'>Assistant Professor at Mcmaster University</p> <br />
-                            <p className='text-lg mt-4 md:mt-0'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enum ad minim veniam, quis nostrud</p>
+                            <p className='text-[#2D3436B2] text-[18px] font-normal  leading-[32px] text-opacity-[0.70] mt-4  md:mt-0'>Assistant Professor at Mcmaster University</p> <br />
+                            <p className='text-[25px] leading-[32px] font-normal  mt-4 md:mt-0 text-[#2D3436] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enum ad minim veniam, quis nostrud</p>
                             <br />
                             <div className='flex-col flex lg:flex-row justify-between text-[#2D3436CC] '>
                                 <div className='flex  justify-between'>
@@ -201,19 +202,19 @@ const Literaturepage = () => {
 
                 </div>
                 <br /><br />
-                <div className='flex font-bold flex-col xl:flex-row text-[#696969] '>
-                    <button className='bg-[#BBBBBB80] lg:mr-4  lg:mx-4 py-2 px-8 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 '>About</button>
-                    <button className='bg-[#BBBBBB80] xl:mx-4 py-2 px-8 lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 '>Courses</button>
-                    <button className='bg-[#BBBBBB80] xl:mx-4 py-2 px-8 lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 '>Notes</button>
-                    <button className='bg-[#BBBBBB80] xl:mx-4 py-2 px-8 lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 '>Project</button>
-                    <button className='bg-[#BBBBBB80] xl:mx-4 py-2 px-8 lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 '>Podcast</button>
-                    <button className='bg-[#49BBBD] text-white xl:mx-4 py-2 px-8 lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 '>Book</button>
-                    <button className='bg-[#BBBBBB80] xl:mx-4 py-2 px-8 lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 '>Review</button>
+                <div className='flex font-bold flex-col xl:flex-row text-[#696969] gap-4 '>
+                    <button className='text-[#696969] 2xl:mx-0 sm:mx-auto py-2 px-2 bg-opacity-50 w-[183.163px] h-[63px] flex justify-center items-center text-2xl rounded-xl leading-[normal] font-bold bg-[#BBBBBB80] '>About</button>
+                    <button className='text-[#696969] 2xl:mx-0 sm:mx-auto py-2 px-2 bg-opacity-50 w-[183.163px] h-[63px] flex justify-center items-center text-2xl rounded-xl leading-[normal] font-bold bg-[#BBBBBB80] '>Courses</button>
+                    <button className='text-[#696969] 2xl:mx-0 sm:mx-auto py-2 px-2 bg-opacity-50 w-[183.163px] h-[63px] flex justify-center items-center text-2xl rounded-xl leading-[normal] font-bold bg-[#BBBBBB80] '>Notes</button>
+                    <button className='text-[#696969] 2xl:mx-0 sm:mx-auto py-2 px-2 bg-opacity-50 w-[183.163px] h-[63px] flex justify-center items-center text-2xl rounded-xl leading-[normal] font-bold bg-[#BBBBBB80] '>Project</button>
+                    <button className='text-[#696969] 2xl:mx-0 sm:mx-auto py-2 px-2 bg-opacity-50 w-[183.163px] h-[63px] flex justify-center items-center text-2xl rounded-xl leading-[normal] font-bold bg-[#BBBBBB80] '>Podcast</button>
+                    <button className='text-white py-2 px-2 2xl:mx-0 sm:mx-auto w-[183.163px] h-[63px] flex justify-center items-center text-2xl rounded-xl leading-[normal] font-bold bg-[#49BBBD] '> Book</button>
+                    <button className='text-[#696969] 2xl:mx-0 sm:mx-auto py-2 px-2 bg-opacity-50 w-[183.163px] h-[63px] flex justify-center items-center text-2xl rounded-xl leading-[normal] font-bold bg-[#BBBBBB80] '>Review</button>
                 </div>
 
-                <br />
-                <p className='text-3xl font-poppins font-medium'>Literature Course </p>
-                <br />
+           
+                <p className='my-16 text-3xl font-poppins font-medium'>Literature Course </p>
+             
                 <div className=" grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  justify-center gap-16">
                     {currentCards.map((card: any) => (
                         <div key={card.id} className="">
@@ -243,16 +244,22 @@ const Literaturepage = () => {
                         </svg>
 
                     </button>
-                    {getPageNumbers().map((page) => (
-                        <button
-                            key={page}
-                            className={`${currentPage === page ? 'bg-[#49BBBD]' : 'bg-gray-200'
-                                } hover:bg-[#49BBBD] text-black font-semibold py-2 px-4`}
-                            onClick={() => handlePageClick(page)}
-                        >
-                            {page}
+                   
+                        <button    className=' hover:bg-[#49BBBD] text-black font-semibold py-2 px-4'  >
+                           1
                         </button>
-                    ))}
+                        <button    className=' hover:bg-[#49BBBD] text-black font-semibold py-2 px-4'  >
+                           2
+                        </button>
+                        <button    className='bg-[#49BBBD] text-white font-semibold py-2 px-4'  >
+                           3
+                        </button>
+                        <button    className=' hover:bg-[#49BBBD] text-black font-semibold py-2 px-4'  >
+                           4
+                        </button>
+                        <button    className=' hover:bg-[#49BBBD] text-black font-semibold py-2 px-4'  >
+                        5
+                        </button>
 
                     <button
 

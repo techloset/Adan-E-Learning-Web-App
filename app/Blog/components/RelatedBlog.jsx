@@ -63,10 +63,10 @@ const RelatedBlog = () => {
                     dots: true
                 }}]}
     return (
-        <div className='bg-[#9DCCFF] bg-opacity-[0.2] p-10 mt-10'>
+        <div className='bg-[#9DCCFF] bg-opacity-[0.2] py-20 my-10'>
             <div className='2xl:w-[90%]  xl:w-[85%]  lg:w-[85%]  md:w-[90%]  sm:w-[98%]  xs:w-[98%%]  mx-auto'>
                 {/* Heading */}
-                <div className='flex justify-between'>
+                <div className='flex justify-between  px-10 '>
                     <h3 className='text-[#000] font-[500] leading-[normal] tracking-[0.6px] 2xl:text-[30px] xl:text-[27px] lg:text-[24px] md:text-[21px] sm:text-[18px] xs:text-[15px] '>Related Blog </h3>
                     <p className='text-[#49BBBD] 2xl:text-[20px] xl:text-[18px]  lg:text-[16px]  md:text-[14px]  sm:text-[12px] xs:text-[10px] font-[700] leading-[normal]'>See all</p>
                 </div>
@@ -98,8 +98,8 @@ const RelatedBlog = () => {
                         </div>
                     ))}
                 </Slider>
-                <div className="2xl:flex xl:flex lg:flex md:hidden sm:hidden xs:hidden justify-end items-center gap-2 2xl:mt-4 xl:mt-3 lg:mt-2 md:mt-1 sm:mt-1 xs:mt-1 2xl:mx-10 xl:mx-6 lg:mx-4 md:mx-2 sm:mx-2 xs:mx-2">
-                    <div onClick={() => slider?.current?.slickPrev()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD]">
+                <div className="2xl:flex xl:flex lg:flex md:hidden sm:hidden xs:hidden justify-end items-center gap-2 2xl:mt-[3.5rem] xl:mt-5 lg:mt-3 md:mt-3 sm:mt-1 xs:mt-1 2xl:mx-10 xl:mx-6 lg:mx-4 md:mx-2 sm:mx-2 xs:mx-2">
+                    <div onClick={() => slider?.current?.slickPrev()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD] rounded opacity-50">
                         <Image
                             src="/before.png"
                             alt="Next"
@@ -107,7 +107,7 @@ const RelatedBlog = () => {
                             width={24}
                             className="w-[24px] h-[24px]" />
                     </div>
-                    <div onClick={() => slider?.current?.slickNext()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD]">
+                    <div onClick={() => slider?.current?.slickNext()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD] rounded ">
                         <Image
                             src="/Next.png"
                             alt="Next"

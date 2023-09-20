@@ -8,7 +8,7 @@ const Education = () => {
         <p className='text-[#49BBBD] 2xl:text-[20px] xl:text-[18px]  lg:text-[16px]  md:text-[14px]  sm:text-[12px] xs:text-[10px] font-[700] leading-[normal]'>See all</p>
       </div>
       {/* Cards */}
-      <div className='grid 2xl:grid-cols-3 xl:grid-cols-2 mx-auto lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1  mt-8 gap-4 pl-5 pr-10  '>
+      <div className='grid 2xl:grid-cols-3 xl:grid-cols-2 mx-auto lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1  mt-16 gap-4 pl-5 pr-10  '>
         <div className='bg-cover pl-10 py-10  rounded-[20px] mx-auto  bg-center bg-no-repeat w-[509.113px]  h-auto min-h-[500px]' style={{ backgroundImage: "url(/Checkout/E1.svg)" }}>
           <p className='w-[126.26px] flex justify-center items-center leading-[normal] font-bold text-white  h-[124px] rounded-[12px] bg-[#49BBBD]  text-[50px]'>50%</p>
           <h4 className='text-[#fff] text-[28px] font-bold leading-[normal] mt-7'>Lorem ipsum dolor</h4>

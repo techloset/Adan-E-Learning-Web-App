@@ -47,17 +47,17 @@ const Dashboard = () => {
 
     return (
         <div className='bg-[#9DCCFF] bg-opacity-[0.20]'>
-            <div className='2xl:w-[90%] xl:w-[90%] lg:w-[95%] md:w-[98%] sm:w-[98%] xs:w-[98%] mx-auto py-20'>
+            <div className='2xl:w-[90%] xl:w-[90%] lg:w-[95%] md:w-[98%] sm:w-[98%] xs:w-[98%] mx-auto py-[2.5rem]'>
                 {/* Headings */}
                 <div className='flex justify-between items-center pl-5 pr-10'>
                     <h2 className='text-[#252641] font-semibold leading-[normal] 2xl:text-[36px] xl:text-[32px] lg:text-[30px] md:text-[25px] sm:text-[20px] xs:text-[15px]'>Welcome back, ready for your next lesson?</h2>
                     <p className='text-[#49BBBD] font-bold leading-[normal] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[14px] sm:text-[12px] xs:text-[10px] '>View hisotry</p>
                 </div>
                 {/* Carsoual */}
-                <Slider ref={slider} {...settings} className="mt-10">
+                <Slider ref={slider} {...settings}>
                     <div>
                     <div className='bg-white p-3 rounded-[30px] max-w-[529px] 
-                    CourseBoxShadow flex flex-col w-[auto] mx-auto'>
+                    CourseBoxShadow flex flex-col w-[auto] mx-auto my-10'>
                        <Image
                        src="/Course/Dashboard/2.svg"
                        alt=''
@@ -80,7 +80,7 @@ const Dashboard = () => {
                
                     <div>
                     <div className='bg-white p-3 rounded-[30px] max-w-[529px] CourseBoxShadow
-                     flex flex-col w-[auto] mx-auto'>
+                     flex flex-col w-[auto] mx-auto my-10'>
                        <Image
                        src="/Course/Dashboard/1.svg"
                        alt=''
@@ -102,7 +102,7 @@ const Dashboard = () => {
                     </div>
 
                     <div>
-                    <div className='bg-white p-3 rounded-[30px] max-w-[529px] CourseBoxShadow flex flex-col w-[auto] mx-auto'>
+                    <div className='bg-white p-3 rounded-[30px] max-w-[529px] CourseBoxShadow flex flex-col w-[auto] mx-auto my-10'>
                        <Image
                        src="/Course/Dashboard/3.svg"
                        alt=''
@@ -125,7 +125,7 @@ const Dashboard = () => {
 
 
                     <div>
-                    <div className='bg-white p-3 rounded-[30px] max-w-[529px] CourseBoxShadow flex flex-col w-[auto] mx-auto '>
+                    <div className='bg-white p-3 rounded-[30px] max-w-[529px] CourseBoxShadow flex flex-col w-[auto] mx-auto my-10'>
                        <Image
                        src="/Course/Dashboard/2.svg"
                        alt=''
@@ -150,8 +150,8 @@ const Dashboard = () => {
                
                 </Slider>
 
-                <div className="2xl:flex xl:flex lg:flex md:hidden sm:hidden xs:hidden justify-end items-center gap-2 2xl:mt-7 xl:mt-5 lg:mt-5 md:mt-3 sm:mt-1 xs:mt-1 2xl:mx-10 xl:mx-6 lg:mx-4 md:mx-2 sm:mx-2 xs:mx-2">
-                    <div onClick={() => slider?.current?.slickPrev()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD]">
+                <div className="2xl:flex xl:flex lg:flex md:hidden sm:hidden xs:hidden justify-end items-center gap-4   2xl:mx-10 xl:mx-6 lg:mx-4 md:mx-2 sm:mx-2 xs:mx-2">
+                    <div onClick={() => slider?.current?.slickPrev()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD] opacity-50 rounded">
                         <Image
                             src="/before.png"
                             alt="Next"
@@ -159,7 +159,7 @@ const Dashboard = () => {
                             width={24}
                             className="w-[24px] h-[24px]" />
                     </div>
-                    <div onClick={() => slider?.current?.slickNext()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD]">
+                    <div onClick={() => slider?.current?.slickNext()} className="w-[50px] h-[50px] flex justify-center items-center bg-[#49BBBD] rounded">
                         <Image
                             src="/Next.png"
                             alt="Next"

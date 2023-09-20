@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Cards from './components/Cards';
 import Cardss from './components/Cardss';
+import Image from 'next/image';
 
 
 
@@ -58,8 +59,6 @@ const Searchpage = () => {
             <Header />
             <div className="bgimageed h-[500px] lg:h-[326px] relative bg-center py-24 bg-cover bg-no-repeat " style={{ backgroundImage: "url(/Search/search.svg)" }}>
                 <div className=" absolute inset-0 bg-[#49BBBD] bg-opacity-40 flex  py-28 flex-col items-center">
-
-
                     <div className="w-3/4  relative">
                         <div className=" flex flex-col space-y-4 md:space-y-0 md:flex-row ">
                             <div className="relative flex-grow">
@@ -284,48 +283,43 @@ const Searchpage = () => {
             <Cards />
             <Cardss />
 
+            <div className='my-20 rounded-[20px] flex bg-[#9DCCFF] b bg-opacity-[0.2] py-2 max-w-[1682px] min-h-[539px] w-[95%] lg:flex-row sm:flex-col xs:flex-col mx-auto justify-between items-center'>
+                <div className='flex flex-col justify-center pl-40 2xl:w-[40%] lg:w-[50%] sm:w-[100%] xs:w-full mx-auto'>
+                    <h1 className='font-semibold text-[30px] leading-[normal] max-w-[331px] text-[#252641]'>Know about Learning learning platform</h1>
+                    <div className='flex flex-col gap-3 my-10'>
+                        <div className='flex gap-4 items-center'>
+                            <div className='w-[20px] h-[20px] rounded-full opacity-[0.48] bg-[#55EFC4]' />
+                            <p className='text-[#2D3436] text-[18px] font-[400] leading-[32px] '>Free E-book, video & consolation</p>
+                        </div>
 
+                        <div className='flex gap-4 items-center'>
+                            <div className='w-[20px] h-[20px] rounded-full opacity-[0.48] bg-[#55EFC4]' />
+                            <p className='text-[#2D3436] text-[18px] font-[400] leading-[32px] '>Top instructors from around world</p>
+                        </div>
 
-            <div className='bg-[#9DCCFF] bg-opacity-20 mx-12 lg:mx-28 lg:p-14  p-6 rounded-2xl flex-col xl:flex-row justify-between flex'>
-
-                <div >
-
-                    <p className='font-semibold lg:text-3x text-2xl '>Know about learning<br /> learning platform</p>
-                    <br />
-                    <div className='flex'>
-                        <div className='bg-[#55EFC4] mt-2 mx-2 rounded-full w-5 h-3 lg:w-4 lg:h-4  md:w-4 md:h-4'></div>
-                        <p className='lg:text-2xl text-xl '>Free E-book, video & consolation</p>
-
+                        <div className='flex gap-4 items-center'>
+                            <div className='w-[20px] h-[20px] rounded-full opacity-[0.48] bg-[#55EFC4]' />
+                            <p className='text-[#2D3436] text-[18px] font-[400] leading-[32px] '>Top courses from your team</p>
+                        </div>
                     </div>
-                    <br />
-                    <div className='flex'>
-                        <div className='bg-[#55EFC4] mt-2 mx-2 rounded-full w-5 h-3  md:w-4 md:h-4 lg:w-4 lg:h-4'></div>
-                        <p className='lg:text-2xl text-xl '>Top instructors from around world</p>
-
-                    </div>
-                    <br />
-                    <div className='flex'>
-                        <div className='bg-[#55EFC4] mt-2 mx-2 rounded-full w-4 h-3  md:w-4 md:h-4 lg:w-4 lg:h-4'></div>
-                        <p className='lg:text-2xl text-xl '>Top courses from your team</p> <br />
-
-                    </div>
-                    <br />
-                    <button className='lg:text-2xl text-xl font-extrabold text-white px-6 rounded-xl py-3 bg-[#49BBBD] '>Start learning now</button>
+                    <button className='text-[24px] text-[#fff] w-[309px] bg-[#49BBBD] flex justify-center items-center h-[63px] rounded-[12px] font-bold leading-[normal] '>Start learning now</button>
                 </div>
-                <br />
-
-                <div className='xl:w-1/2'>
-                    <img src="Search/office.png" alt="" />
+                <div className='2xl:pl-40 2xl:pr-20 sm:pr-5 sm:pl-5 2xl:w-[60%] lg:w-[50%] sm:w-full xs:w-full mx-auto'>
+                    <Image
+                    src="/Search/office.png"
+                    alt=''
+                    height={700}
+                    width={700}
+                    className='mx-auto'/>
                 </div>
             </div>
-            <br /><br />
+         
 
 
             <Card />
 
-            <br /><br /><br />
-
-            <div className='lg:mx-28  mx-12'>
+          
+            <div className='lg:mx-28  mx-12 mt-20'>
                 <div className=' flex justify-between '>
                     <p className='lg:text-3xl font-semibold'>Classes taught by real creators</p>
                     <p className='text-[#49BBBD] font-semibold '>See all</p>

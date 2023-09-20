@@ -4,11 +4,11 @@ const NewsAndResources = () => {
         <div className='mt-40 pb-20'>
             {/* Heading */}
             <div >
-                <h1 className='text-[#2F327D] font-[Nunito-Sans] text-[36px] font-bold leading-[180%] text-center'>Lastest News and Resources</h1>
-                <p className='text-[#696984] text-center font-[Nunito-Sans] text-[24px] font-[400] leading-[180%]'>See the developments that have occurred to TOTC in the world</p>
+                <h1 className='text-[#2F327D]  text-[36px] font-bold leading-[180%] text-center'>Lastest News and Resources</h1>
+                <p className='text-[#696984] text-center  text-[24px] font-[400] leading-[180%]'>See the developments that have occurred to TOTC in the world</p>
             </div>
             {/* Cards */}
-            <div className='mt-20 grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-20    mx-auto 2xl:w-[90%]  xl:w-[95%]  lg:w-[100%]  md:w-[90%]  sm:w-[98%]  xs:w-[98%%]'>
+            <div className='mt-20 grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-20    mx-auto 2xl:w-[80%]  xl:w-[95%]  lg:w-[100%]  md:w-[90%]  sm:w-[98%]  xs:w-[98%%]'>
                 <div className='flex flex-col justify-end mx-auto'>
                     <Image
                         src="/homepage/News/Laptop.svg"
@@ -22,7 +22,7 @@ const NewsAndResources = () => {
 
                 </div>
                 <div className='space-y-20'>
-                    <div className='flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col xs:flex-col gap-4 justify-center items-center'>
+                    <div className='flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col xs:flex-col gap-4 justify-center items-center '>
                         <div className='relative'>
                             <Image
                                 src="homepage/News/Girl.svg"

@@ -3,11 +3,11 @@ const Explore = () => {
     return (
         <div className='mt-20 relative'>
             {/* Background */}
-            <div className='bg-[#9DCCFF] rounded-br-[100px] absolute w-[80%] top-0 left-0 opacity-[0.2] 2xl:h-[140vh] xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-auto' />
+            <div className='bg-[#9DCCFF] rounded-br-[100px] absolute w-[80%] top-0 left-0 opacity-[0.2] 2xl:h-[2408.895px] xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-auto' />
             {/* Explore Page */}
-            <div className=' pt-60 relative 2xl:ml-[10%] xl:ml-[10%] lg:ml-[5%] md:ml-[5%]  sm:ml-[2%] xs:ml-[2%]'>
+            <div className=' pt-60 relative 2xl:ml-[10%] xl:ml-[10%] lg:ml-[5%] md:ml-[5%]  sm:ml-[2%] xs:ml-[2%]  font-roboto-imp'>
                 {/* Heading */}
-                <div>
+                <div className='flex flex-col gap-3'>
                     <h1 className='text-[44px] homeExploreBlacktext font-bold leading-[normal] '>Explore Course</h1>
                     <p className='text-[24px] homeExploreBlacktextTwo font-[500] leading-[normal] '>Ut sed eros finibus, placerat orci id, dapibus.</p>
                 </div>
@@ -32,7 +32,7 @@ const Explore = () => {
                         </button>
                     </div>
                     {/* Books */}
-                    <div>
+                    <div className='2xl:mr-[3%] sm:mr-[0%] xs:mr-[0%]'>
                     <Image src="/homepage/Explore/BookOne.png"
                      alt='BookOne' height={6000} width={6000}/>
                     </div>

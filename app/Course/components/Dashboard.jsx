@@ -51,7 +51,7 @@ const Dashboard = () => {
                 {/* Headings */}
                 <div className='flex justify-between items-center pl-5 pr-10'>
                     <h2 className='text-[#252641] font-semibold leading-[normal] 2xl:text-[36px] xl:text-[32px] lg:text-[30px] md:text-[25px] sm:text-[20px] xs:text-[15px]'>Welcome back, ready for your next lesson?</h2>
-                    <p className='text-[#49BBBD] font-bold leading-[normal] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[14px] sm:text-[12px] xs:text-[10px] '>View hisotry</p>
+                    <p className='text-[#49BBBD] font-bold leading-[normal] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[14px] sm:text-[12px] xs:text-[10px] '>View history</p>
                 </div>
                 {/* Carsoual */}
                 <Slider ref={slider} {...settings}>

@@ -1,8 +1,8 @@
 const MeetingPage = () => {
     return (
-        <div className='bg-[#9DCCFF] bg-opacity-20 p-8 flex xl:flex-row flex-col  font-poppins'>
-            <div className='xl:w-[70%] xl:mr-10 mt-8 ' >
-                <div className='flex'>
+        <div className='bg-[#9DCCFF] bg-opacity-20 p-8 flex xl:flex-row flex-col  font-poppins justify-center items-center gap-1'>
+            <div className='xl:w-[70%] xl:mr-10 mt-8 2xl:w-[1186px] ' >
+                <div className='flex 2xl:w-[1186px] w-auto'>
                     <button className='text-white m-auto  bg-[#49BBBD] px-3 mr-4 w-[50px] h-[50px] '>
                         <span className='hidden'>hidden</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -23,10 +23,9 @@ const MeetingPage = () => {
 
                 </div>
                 <br />
-                <img src="/Meeting/meeting.svg" className='justify-center' alt="" />
-
+                <img src="/Meeting/meeting.svg" className='justify-center 2xl:w-[1186px] w-auto' alt="" />
             </div>
-            <div className='xl:w-[30%] mt-8 font-medium'>
+            <div className='xl:w-[30%] mt-8 font-medium 2xl:w-[498px]'>
                 <div className=' bg-[white]  rounded-2xl p-5'>
                     <p className='text-[#252641] text-[30px]  font-semibold leading-[normal]'>Course Contents</p>
                     <div className='flex justify-between mt-1'>
@@ -233,7 +232,7 @@ const MeetingPage = () => {
 
                 </div>
                 <br />
-                <div className='bg-white  rounded-2xl p-5 text-center  '>
+                <div className='bg-white  rounded-2xl p-5 text-center 2xl:w-[498px] w-auto '>
                     <div className='flex justify-between'>
                         <p className='text-3xl font-semibold'>Book for you</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#49BBBD]">

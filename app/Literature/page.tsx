@@ -45,8 +45,6 @@ const Literaturepage = () => {
 
     const cardsPerPage = 6;
     const totalPages = Math.ceil(cardData.length / cardsPerPage);
-    const visiblePages = 2;
-    const halfVisiblePages = Math.floor(visiblePages / 2);
 
     useEffect(() => {
         const fetchCards = () => {
@@ -60,11 +58,7 @@ const Literaturepage = () => {
         fetchCards();
     }, [currentPage]);
 
-    const handlePageClick = (page: any) => {
-        setCurrentPage(page);
-        setCurrentCards([])
-    };
-
+    
     const handlePrevClick = () => {
         setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
         setCurrentCards([])
@@ -75,27 +69,12 @@ const Literaturepage = () => {
         setCurrentCards([])
     };
 
-    const getPageNumbers = () => {
-        const pageNumbers = [];
-        let startPage = Math.max(currentPage - halfVisiblePages, 1);
-        
-        let endPage = Math.min(startPage + visiblePages - 1, totalPages);
-
-        if (endPage - startPage < visiblePages - 1) {
-            startPage = Math.max(endPage - visiblePages + 1, 1);
-        }
-
-        for (let page = startPage; page <= endPage; page++) {
-            pageNumbers.push(page);
-        }
-        return pageNumbers;
-    };
+   
 
     return (
         <>
             <Header />
             <div className='lg:mx-20 mx-5'>
-
 
 
                 <div className='rounded-2xl flex-col flex xl:flex-row  p-10 justify-center mx-auto bg-center bg-cover' style={{ backgroundImage: `url(/Literature/laptop.svg)` }}>
@@ -233,7 +212,7 @@ const Literaturepage = () => {
                 <br />
                 <div className="w-full flex justify-center mt-4">
                     <button
-                        className=" text-[#49BBBD] font-semibold py-2 px-4 rounded-l"
+                        className=" text-[#49BBBD] w-[70px] h-[70px] font-semibold py-2 px-4 rounded-l"
                         onClick={handlePrevClick}
                         disabled={currentPage === 1}
                         style={{ backgroundColor: "rgba(73, 187, 189, 0.20)" }}
@@ -245,25 +224,24 @@ const Literaturepage = () => {
 
                     </button>
                    
-                        <button    className=' hover:bg-[#49BBBD] text-black font-semibold py-2 px-4'  >
+                        <button    className=' hover:bg-[#49BBBD] text-[30px] font-normal leading-[normal]   text-black  py-2 px-4 w-[70px] h-[70px]'  >
                            1
                         </button>
-                        <button    className=' hover:bg-[#49BBBD] text-black font-semibold py-2 px-4'  >
+                        <button    className=' hover:bg-[#49BBBD] text-[30px] font-normal leading-[normal] text-black  py-2 px-4 w-[70px] h-[70px]'  >
                            2
                         </button>
-                        <button    className='bg-[#49BBBD] text-white font-semibold py-2 px-4'  >
+                        <button    className='bg-[#49BBBD] text-white text-[30px] font-normal leading-[normal]  py-2 px-4 w-[70px] h-[70px]'  >
                            3
                         </button>
-                        <button    className=' hover:bg-[#49BBBD] text-black font-semibold py-2 px-4'  >
+                        <button    className=' hover:bg-[#49BBBD] text-black text-[30px] font-normal leading-[normal]  py-2 px-4 w-[70px] h-[70px]'  >
                            4
                         </button>
-                        <button    className=' hover:bg-[#49BBBD] text-black font-semibold py-2 px-4'  >
+                        <button    className=' hover:bg-[#49BBBD] text-[30px] font-normal leading-[normal] text-black  py-2 px-4 w-[70px] h-[70px]'  >
                         5
                         </button>
-
                     <button
 
-                        className="font-extrabold text-[#49BBBD] py-2 px-4 rounded-r"
+                        className="font-extrabold text-[#49BBBD] py-2 px-4 w-[70px] h-[70px] rounded-r"
                         onClick={handleNextClick}
                         disabled={currentPage === totalPages}
                         style={{ backgroundColor: "rgba(73, 187, 189, 0.20)" }}

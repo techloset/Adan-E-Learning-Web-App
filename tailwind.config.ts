@@ -19,6 +19,15 @@ const config: Config = {
       screens: {
         'xs': {'min': '10px', 'max': '576px'},
       },
+      fontFamily: {
+        "buenos-aires": ["Buenos Aires", "sans-serif"],
+        "buenos-airesLight": ["Buenos Aires Light", "sans-serif"],
+        "buenos-airesBold": ["Buenos Aires Bold", "sans-serif"],
+        "nunito-sans": ["var(--font-nunito)"],
+        "roboto-imp": ["var(--font-roboto)"],
+        "inter-400": ["var(--font-inter)"],
+        "poppins": ["var(--font-poppins)"],
+      },
      
     },
   },

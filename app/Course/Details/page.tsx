@@ -17,7 +17,7 @@ const Detailspage = () => {
 
 
           {/* GRID One */}
-          <div className='2xl:w-[60%] xl:w-[60%] lg:w-[50%] md:w-[90%] sm:w-[100%] xs:w-[100%] mx-auto relative'>
+          <div className='2xl:w-[60%] max-w-[950px] xl:w-[60%] lg:w-[50%] md:w-[90%] sm:w-[100%] xs:w-[100%] mx-auto relative'>
             {/* Button */}
             <div className='flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col xs:flex-col 2xl:justify-between xl:justify-between lg:justify-between md:justify-between sm:justify-center xs:justify-center   items-center gap-5 mx-auto'>
               <button className='text-[#000] text-opacity-[0.40] hover:bg-[#49BBBD] hover:text-opacity-100 hover:text-[#fff] hover:bg-opacity-100 text-[20px] font-bold leading-[normal] w-[200px] h-[63px] rounded-[12px] bg-[#000] bg-opacity-[0.10] flex justify-center items-center '>Overview</button>
@@ -28,7 +28,7 @@ const Detailspage = () => {
             {/* Card */}
             <div className='bg-[#9dccff] max-w-[950px]  w-auto h-auto rounded-[20px] bg-opacity-[0.30] p-3 mt-10 flex flex-col justify-between '>
               {/* Rating */}
-              <div className='flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col xs:flex-col 2xl:justify-between xl:justify-between lg:justify-between md:justify-between sm:justify-center  xs:justify-center  items-center gap-4 pt-8 px-5 '>
+              <div className='flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col xs:flex-col 2xl:justify-between xl:justify-between lg:justify-between md:justify-between sm:justify-center  xs:justify-center  items-center gap-4 pt-8 2xl:px-20 px-2 '>
                 {/* White Box */}
                 <div className='max-w-[257px] sm:w-auto xs:w-auto md:w-[40%] 2xl:w-[40%] lg:w-[40%] xl:w-[40%] max-h-[199px] h-auto bg-[white] p-4 rounded-[16px] flex flex-col justify-center items-center text-center space-y-3'>
                   <h1 className='text-[#000] pt-4 opacity-50 text-[30px] font-semibold leading-[normal] tracking-[0.6px]'>4 out of 5</h1>
@@ -42,17 +42,19 @@ const Detailspage = () => {
                 </div>
 
                 <div className=' flex flex-col 2xl:w-[60%] xl:w-[60%] md:w-[60%] lg:w-[60%]  sm:w-[90%] xs:w-[90%] gap-3'>
-                  <div className=' flex  items-center justify-between  w-auto'>
+
+
+                  <div className=' flex  items-center  w-auto gap-4'>
                     <p className='text-[#000] text-[20px] font-[400] leading-[normal] tracking-[0.4px] opacity-[0.5] w-[20%]'>5 Stars</p>
-                    <div className='w-[80%] flex justify-end'>
+                    <div className='w-[80%] flex '>
                       <hr className='bg-[#49BBBD] max-w-[372px] w-[60%] h-[8px] rounded-[2px]' />
                       <hr className='bg-[#D9D9D9] w-[25%] max-w-[111px] h-[8px] rounded-[2px]' />
                     </div>
                   </div>
 
-                  <div className=' flex  items-center justify-between  w-auto'>
+               <div className=' flex  items-center  w-auto gap-4'>
                     <p className='text-[#000] text-[20px] font-[400] leading-[normal] tracking-[0.4px] opacity-[0.5] w-[20%]'>4 Stars</p>
-                    <div className='w-[80%] flex justify-end'>
+                    <div className='w-[80%] flex '>
                       <hr className='bg-[#49BBBD] max-w-[372px] w-[60%] h-[8px] rounded-[2px]' />
                       <hr className='bg-[#D9D9D9] w-[25%] max-w-[111px] h-[8px] rounded-[2px]' />
                     </div>
@@ -60,28 +62,25 @@ const Detailspage = () => {
                   </div>
 
 
-                  <div className=' flex  items-center justify-between  w-auto'>
+                  <div className=' flex  items-center  w-auto gap-4'>
                     <p className='text-[#000] text-[20px] font-[400] leading-[normal] tracking-[0.4px] opacity-[0.5] w-[20%]'>3 Stars</p>
-                    <div className='w-[80%] flex justify-end'>
+                    <div className='w-[80%] flex '>
                       <hr className='bg-[#49BBBD] max-w-[372px] w-[60%] h-[8px] rounded-[2px]' />
                       <hr className='bg-[#D9D9D9] w-[25%] max-w-[111px] h-[8px] rounded-[2px]' />
                     </div>
-
-
-
                   </div>
 
-                  <div className=' flex  items-center justify-between  w-auto'>
+                  <div className=' flex  items-center  w-auto gap-4'>
                     <p className='text-[#000] text-[20px] font-[400] leading-[normal] tracking-[0.4px] opacity-[0.5] w-[20%]'>2 Stars</p>
-                    <div className='w-[80%] flex justify-end'>
+                    <div className='w-[80%] flex '>
                       <hr className='bg-[#49BBBD] max-w-[372px] w-[60%] h-[8px] rounded-[2px]' />
                       <hr className='bg-[#D9D9D9] w-[25%] max-w-[111px] h-[8px] rounded-[2px]' />
                     </div>
                   </div>
 
-                  <div className=' flex  items-center justify-between  w-auto'>
+                  <div className=' flex  items-center  w-auto gap-4'>
                     <p className='text-[#000] text-[20px] font-[400] leading-[normal] tracking-[0.4px] opacity-[0.5] w-[20%]'>1 Stars</p>
-                    <div className='w-[80%] flex justify-end'>
+                    <div className='w-[80%] flex '>
                       <hr className='bg-[#49BBBD] max-w-[372px] w-[60%] h-[8px] rounded-[2px]' />
                       <hr className='bg-[#D9D9D9] w-[25%] max-w-[111px] h-[8px] rounded-[2px]' />
                     </div>
@@ -90,7 +89,7 @@ const Detailspage = () => {
 
               </div>
 
-              <div className='flex flex-col space-y-10 mx-5 mt-8'>
+              <div className='flex flex-col space-y-10 mx-5 mt-8 px-10'>
                 <div>
                   <div className='flex justify-between'>
                     <div className='flex  justify-center items-center  gap-3'>
@@ -120,7 +119,7 @@ const Detailspage = () => {
                       <p className='text-[#696984] text-[14px] font-medium leading-[normal] tracking-[0.28px]'>3 Month</p>
                     </div>
                   </div>
-                  <p className='text-[#696984] max-w-[847] w-auto text-[20px] font-[400]  leading-[normal] tracking-[0.4px] '>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
+                  <p className='text-[#696984] mt-6 max-w-[847] w-auto text-[20px] font-[400]  leading-[normal] tracking-[0.4px] '>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
                 </div>
                 <hr className='bg-[#696984] h-[0.5px]' />
                 <div className='pb-10'>
@@ -148,7 +147,7 @@ const Detailspage = () => {
                       <p className='text-[#696984] text-[14px] font-medium leading-[normal] tracking-[0.28px]'>3 Month</p>
                     </div>
                   </div>
-                  <p className='text-[#696984] max-w-[847] w-auto text-[20px] font-[400]  leading-[normal] tracking-[0.4px] '>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
+                  <p className='text-[#696984] mt-6 max-w-[847] w-auto text-[20px] font-[400]  leading-[normal] tracking-[0.4px] '>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
                 </div>
               </div>
 
@@ -160,7 +159,7 @@ const Detailspage = () => {
             <div className=' 2xl:w-[501px] xl:w-[501px] lg:w-[501px] md:w-[501px] sm:w-[375px] xs:w-[375px] bg-white rounded-[20px] border-[30px] border-white  flex flex-col 2xl:absolute 2xl:mt-[-40%] xl:absolute xl:mt-[-50%] lg:absolute lg:mt-[-40%]  md:relative md:mt-2 sm:relative sm:mt-2 xs:relative xs:mt-2' >
               <Image src="/Course/Detail/Bg.svg" alt='' height={300} width={300} className='max-w-[443px] w-auto min-h-[268px]' />
               <div className='flex justify-between items-center mt-2'>
-                <p className='text-[#000] font-semibold leading-[normal] tracking-[0.9px] text-[45px]'>$49.65</p>
+                <p className='text-[#000] font-semibold leading-[normal] tracking-[0.9px] text-[45px]'>$49.65</p> 
                 <p className='text-[#000] text-[28px] line-through opacity-[0.50] font-semibold tracking-[0.56px] leading-[normal]'>$99.99</p>
                 <p className='text-[#000] text-[24px] leading-[normal] tracking-[0.56px] font-semibold text-opacity-[0.50]'>50% Off</p>
               </div>
@@ -274,25 +273,25 @@ const Detailspage = () => {
       <div className='   md:grid sm:hidden xs:hidden'>
         <div className='2xl:w-[90%] md:w-[95%] xs:w-[98%] mx-auto mt-[3rem] pb-20'>
           {/* Heading */}
-          <div className='flex justify-between  mx-auto pl-5 pr-10' >
+          <div className='flex justify-between  mx-auto pl-8 pr-14' >
             <h3 className='text-[#000] font-[500] leading-[normal] tracking-[0.6px] 2xl:text-[30px] xl:text-[27px] lg:text-[24px] md:text-[21px] sm:text-[18px] xs:text-[15px]'>Top  Education offers and deals are listed here</h3>
             <p className='text-[#49BBBD] 2xl:text-[20px] xl:text-[18px]  lg:text-[16px]  md:text-[14px]  sm:text-[12px] xs:text-[10px] font-[700] leading-[normal]'>See all</p>
           </div>
           {/* Cards */}
-          <div className='grid xl:grid-cols-3 mx-auto lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1  mt-8 gap-4 pl-5 pr-10 '>
-            <div className='bg-cover pl-10 py-10 rounded-[20px] mx-auto  bg-center bg-no-repeat max-w-[506px] w-auto h-auto min-h-[477.419px]' style={{ backgroundImage: "url(/Course/Detail/Card.svg)" }}>
+          <div className='grid xl:grid-cols-2  2xl:grid-cols-3  mx-auto lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1  mt-8 gap-8 pl-5 pr-10'>
+            <div className='bg-cover pl-10 py-10 rounded-[20px] mx-auto  bg-center bg-no-repeat !w-[506px]  h-auto min-h-[477.419px]' style={{ backgroundImage: "url(/Course/Detail/Card.svg)" }}>
               <p className='w-[100px] flex justify-center items-center leading-[normal] font-bold text-white  h-[100px] rounded-[12px] bg-[#FF000099] bg-opacity-[0.60] text-[24px]'>50%</p>
               <h4 className='text-[#fff] text-[32px] font-semibold leading-[normal] mt-7'>FOR INSTRUCTORS</h4>
               <p className='text-[#fff] mt-7 text-[24px] font-[400] leading-[180%] tracking-[0.48px] max-w-[405px] w-auto'>TOTC’s school management software helps traditional and online schools manage scheduling,</p>
             </div>
 
-            <div className='bg-cover pl-10 py-10 rounded-[20px] mx-auto  bg-center bg-no-repeat max-w-[506px] w-auto h-auto min-h-[477.419px]' style={{ backgroundImage: "url(/Course/Detail/Card.svg)" }}>
+            <div className='bg-cover pl-10 py-10 rounded-[20px] mx-auto  bg-center bg-no-repeat !w-[506px]  h-auto min-h-[477.419px]' style={{ backgroundImage: "url(/Course/Detail/Card.svg)" }}>
               <p className='w-[100px] flex justify-center items-center leading-[normal] font-bold text-white  h-[100px] rounded-[12px] bg-[#FF000099] bg-opacity-[0.60] text-[24px]'>50%</p>
               <h4 className='text-[#fff] text-[32px] font-semibold leading-[normal] mt-7'>FOR INSTRUCTORS</h4>
               <p className='text-[#fff] mt-7 text-[24px] font-[400] leading-[180%] tracking-[0.48px] max-w-[405px] w-auto'>TOTC’s school management software helps traditional and online schools manage scheduling,</p>
             </div>
 
-            <div className='bg-cover pl-10 py-10 mx-auto rounded-[20px]  bg-center bg-no-repeat max-w-[506px] w-auto h-auto min-h-[477.419px]' style={{ backgroundImage: "url(/Course/Detail/Card.svg)" }}>
+            <div className='bg-cover pl-10 py-10 mx-auto rounded-[20px]  bg-center bg-no-repeat !w-[506px]  h-auto min-h-[477.419px]' style={{ backgroundImage: "url(/Course/Detail/Card.svg)" }}>
               <p className='w-[100px] flex justify-center items-center leading-[normal] font-bold text-white  h-[100px] rounded-[12px] bg-[#FF000099] bg-opacity-[0.60] text-[24px]'>50%</p>
               <h4 className='text-[#fff] text-[32px] font-semibold leading-[normal] mt-7'>FOR INSTRUCTORS</h4>
               <p className='text-[#fff] mt-7 text-[24px] font-[400] leading-[180%] tracking-[0.48px] max-w-[405px] w-auto'>TOTC’s school management software helps traditional and online schools manage scheduling,</p>

@@ -9,7 +9,7 @@ function Navbar() {
     const router = useRouter()
     return (
         <>
-            <div className='flex justify-between px-20 pt-8 xl:flex sm:hidden xs:hidden md:hidden bg-[#49BBBD] -mb-4 pb-4'>
+            <div className='flex justify-between px-20 pt-8 2xl:flex xl:hidden lg:hidden sm:hidden xs:hidden md:hidden bg-[#49BBBD] -mb-4 pb-4'>
                 <div className='flex items-center'>
                     <div className='flex justify-center text-center items-center  pr-2'>
                         <Image src="/header/logo.svg" alt="Logo" width={80} height={80} className="w-[114px] h-[83px]" />
@@ -34,7 +34,7 @@ function Navbar() {
 
 
 
-            <nav className="w-full bg-[#49BBBD] xl:hidden">
+            <nav className="w-full bg-[#49BBBD] 2xl:hidden xl:block lg:block md:block sm:block xs:block ">
                 <div className="justify-between px-5 mx-auto lg:max-w-7xl lg:items-center  lg:flex lg:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 lg:py-5 lg:block">

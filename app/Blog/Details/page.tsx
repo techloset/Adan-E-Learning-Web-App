@@ -14,7 +14,7 @@ const Detailpage = () => {
                     width={10000}
                     className='bg-black'
                 />
-                <div className='2xl:w-[90%] md:w-[95%] xs:w-[98%] mx-auto mt-[3rem]'>
+                <div className='2xl:w-[85%] md:w-[95%] xs:w-[98%] mx-auto mt-[3rem]'>
                     <h1 className='font-semibold leading-[180%] text-[#2F327D] 2xl:text-[44px] xl:text-[42px] lg:text-[40px] md:text-[38px] sm:text-[34px] xs:text-[text-32px]'>Why Swift UI Should Be on the Radar of Every Mobile Developer</h1>
                     <p className='mt-[2rem] text-[#696984] max-w-[1681px] text-[24px] font-[400] leading-[180%] tracking-[0.48px]'>TOTC is a platform that allows educators to create online classes whereby
                         they can store the course materials online; manage assignments, quizzes and exams;

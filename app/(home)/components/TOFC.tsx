@@ -18,16 +18,16 @@ const Tofc = () => {
             {/* Cards */}
             <div className='mt-20  grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-10 justify-center items-center  mx-auto 2xl:w-[70%]  xl:w-[75%]  lg:w-[80%]  md:w-[95%]  sm:w-[98%]  xs:w-[98%%]  '>
 
-                <div className="max-w-[600px] w-auto bg-no-repeat h-[400px]  rounded-[24px] bg-cover" style={{ backgroundImage: 'url(/homepage/Tofc/CardImgOne.svg)' }} >
+                <div className="2xl:w-[600px] xl:w-[400px] sm:w-auto xs:w-auto  bg-no-repeat h-[400px]  rounded-[24px] bg-cover mx-auto" style={{ backgroundImage: 'url(/homepage/Tofc/CardImgOne.svg)' }} >
                     <div className="w-full flex items-center justify-center h-full flex-col gap-5">
                         <p className="text-[#FFF] text-[32px] font-semibold leading-[normal]">FOR INSTRUCTORS</p>
                         <button className="w-[283px] h-[80px] border-[1px] border-[#fff] rounded-[80px] text-[22px] font-[500] text-center text-[#fff] leading-[normal]">Start a class today</button>
                     </div>
                 </div>
-                <div className="max-w-[600px] w-auto bg-no-repeat h-[400px]  rounded-[24px] bg-cover" style={{ backgroundImage: 'url(/homepage/Tofc/CardImgTwo.svg)' }} >
+                <div className="2xl:w-[600px] xl:w-[400px] sm:w-auto xs:w-auto mx-auto bg-no-repeat h-[400px]  rounded-[24px] bg-cover" style={{ backgroundImage: 'url(/homepage/Tofc/CardImgTwo.svg)' }} >
                     <div className="w-full flex items-center justify-center h-full flex-col gap-5">
                         <p className="text-[#FFF] text-[32px] font-semibold leading-[normal]">FOR STUDENTS</p>
-                        <button onClick={()=> router.push("/Meeting")} className="w-[283px] h-[80px] homeTofcBlueOpacity  rounded-[80px] text-[22px] font-[500] text-center  leading-[normal] hover:bg-cyan-800 hover:border-cyan-300 hover:text-cyan-300 hover:border-2" >Enter access code</button>
+                        <button onClick={()=> router.push("/Meeting")} className="w-[283px] h-[80px] homeTofcBlueOpacity  rounded-[80px] text-[22px] font-[500] text-center  leading-[normal] hover:bg-cyan-800 hover:border-cyan-300 hover:text-cyan-300 hover:border-2 text-[#fff]" >Enter access code</button>
                     </div>
                 </div>
 

@@ -55,7 +55,7 @@ const Dropdown = () => {
                                 </p>
                             </Menu.Item>
                             <Menu.Item>
-                                <p className='border-b-2 cursor-pointer hover:bg-gray-100 border-gray-400 text-black block px-4 py-2 text-md' onClick={()=>router.push("/ChekOut")} >
+                                <p className='border-b-2 cursor-pointer hover:bg-gray-100 border-gray-400 text-black block px-4 py-2 text-md' onClick={()=>router.push("/CheckOut")} >
                                     Check Out
                                 </p>
                             </Menu.Item>

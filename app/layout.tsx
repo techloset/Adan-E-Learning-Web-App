@@ -1,13 +1,26 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { Poppins, Nunito_Sans, Roboto, Inter } from "next/font/google";
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-poppins',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-poppins",
 });
+const nunito = Nunito_Sans({
+  subsets: ["latin"],
+  variable: "--font-nunito",
+});
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-roboto",
+});
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
 
 export const metadata: Metadata = {
   title: 'E-Learning Web App',
@@ -21,11 +34,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
-      <div className="mx-auto  max-w-[130rem]">
-        {children}
+      <body
+        className={`${poppins.className} ${nunito.variable} ${roboto.variable} ${inter.variable} ${poppins.variable}`}
+      >
+        <div className="mx-auto  max-w-[130rem] font-poppins">
+          {children}
         </div>
-        </body>
+      </body>
     </html>
   )
 }

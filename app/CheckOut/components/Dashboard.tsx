@@ -3,8 +3,8 @@ const Dashboard = () => {
     return (
         <div className="lg:w-[90%] md:w-[98%] sm:w-[98%] xs:w-[98%] mx-auto my-10">
             <div className='flex lg:flex-row md:flex-col sm:flex-col xs:flex-col gap-10'>
-                <div className="max-w-[982px] lg:w-[60%] md:w-full sm:w-full xs:w-full h-auto rounded-[20px] bg-[#fff] MemberShipBoxShadow p-5">
-                    <h3 className="text-[#252641] text-[36px] font-semibold leading-[normal]">Checkout</h3>
+                <div className="max-w-[982px] lg:w-[60%] md:w-full sm:w-full xs:w-full h-auto rounded-[20px] bg-[#fff] MemberShipBoxShadow p-5 px-10">
+                    <h3 className="text-[#252641] text-[36px] font-semibold leading-[normal] mt-5">Checkout</h3>
                     <p className="mt-1 text-[#5B5B5B] text-[18px] font-semibold leading-[normal]">Cart Type</p>
                     <div className="flex xl:flex-row lg:flex-col md:flex-col sm:flex-col xs:flex-col lg:justify-start md:justify-start sm:justify-center xs:justify-center items-center gap-3 mt-5 w-full">
                         <div className="xl:flex-row lg:flex-row md:flex-row sm:flex-col xs:flex-col items-center gap-3 flex">
@@ -78,16 +78,17 @@ const Dashboard = () => {
                         <button className="rounded-[12px] bg-[#49BBBD] text-[#fff] text-[26px] font-[400] leading-[normal] max-w-[842px] w-full h-[63px] flex justify-center items-center text-center my-5">Confirm Payment</button>
                     </form>
                 </div>
-                <div className="lg:w-[40%] max-w-[662px] rounded-[20px] bg-opacity-[0.2] bg-[#9DCCFF] md:w-full sm:w-full xs:w-full 2xl:h-[670px] sm:h-auto p-4 mx-auto">
+                <div className="lg:w-[40%] px-[2.15rem] max-w-[662px] rounded-[20px] bg-opacity-[0.2] bg-[#9DCCFF] md:w-full sm:w-full xs:w-full 2xl:h-[630px] sm:h-auto p-4 mx-auto">
                     <h3 className="text-[#252641] text-[24px] font-[400] leading-[normal]">Summary</h3>
 
                     <div className="flex flex-col gap-2">
-                        <div className="flex gap-2 mt-10 xl:flex-row sm:flex-col xs:flex-col mx-auto">
+                        <div className="flex gap-8  mt-10 xl:flex-row sm:flex-col xs:flex-col items-center">
                             <Image
                                 src="/Checkout/card.svg"
                                 alt=""
                                 height={200}
-                                width={200} />
+                                width={200} 
+                                className=" w-auto max-w-[160px] !h-[107px]" />
                             <div className="flex flex-col gap-2 justify-center py-2">
                                 <div className="flex flex-col gap-2">
                                     <h3 className="text-[#000] text-[18px] font-[400] leading-[180%] tracking-[0.36px]">adipising elit, sed do eiusmod tempor</h3>
@@ -100,14 +101,15 @@ const Dashboard = () => {
                         <hr className=" h-[0.5px] bg-[#5B5B5B]" />
                     </div>
 
-                    <div className="flex flex-col gap-2">
-                        <div className="flex xl:flex-row sm:flex-col xs:flex-col mx-auto gap-2 mt-10">
+                    <div className="flex flex-col gap-2 my-2">
+                        <div className="flex xl:flex-row sm:flex-col xs:flex-col  gap-8  items-center">
                             <Image
                                 src="/Checkout/card.svg"
                                 alt=""
                                 height={200}
-                                width={200} />
-                            <div className="flex flex-col gap-2 justify-center py-2">
+                                width={200}
+                                className=" w-auto max-w-[160px] !h-[107px]" />
+                            <div className="flex flex-col gap-2 justify-center ">
                                 <div className="flex flex-col gap-2">
                                     <h3 className="text-[#000] text-[18px] font-[400] leading-[180%] tracking-[0.36px]">adipising elit, sed do eiusmod tempor</h3>
                                     <p className="text-[#5B5B5B] text-[18px] font-[400] leading-[180%]  tracking-[0.36px]">Lorem ipsum dollar...</p>

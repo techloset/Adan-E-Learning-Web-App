@@ -35,7 +35,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <div className={`bg-[url('/homepage/Dashboard/Bluebg.svg')] bg-[#fff]       bg-cover bg-bottom bg-no-repeat h-auto  2xl:block sm:hidden xs:hidden  overflow-y-hidden relative bg-relative`}>
+      <div className={`bg-[url('/homepage/Dashboard/Bluebg.svg')] bg-[#fff]       bg-cover bg-bottom bg-no-repeat h-auto pt-10  2xl:block sm:hidden xs:hidden  overflow-y-hidden relative bg-relative`}>
         <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 gap-4 2xl:w-[95%] sm:w-[100%] relative overflow-hidden">
           <div className="2xl:px-[6rem] xl:px-20 lg:px-20 md:px-16 sm:px-14 xs:px-12  2xl:pt-28 xl:pt-28 lg:pt-20 md:pt-16 sm:pt-14 xs:pt-12 2xl:pb-[20rem] xl:pb-[10rem] lg:pb-[7rem] md:pb-[1rem] sm:pb-[1rem] xs:pb-[1rem] w-full flex flex-col justify-center space-y-8 ">
             <p className="max-w-[681px] md:w-auto xl:text-[54px]  2xl:text-[54px] lg:text-[47px] md:text-[40px]  sm:text-[30px] xs:text-[25px] leading-[normal] text-white font-bold "><span className="text-[#F48C06]">Studying</span> Online is now much easier</p>

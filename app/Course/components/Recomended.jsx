@@ -124,7 +124,7 @@ const Recomended = () => {
             <div className='2xl:py-20 xl:py-16 lg:py-12 md:py-10 sm:py-8 xs:py-6 2xl:w-[90%]  xl:w-[85%]  lg:w-[85%]  md:w-[90%]  sm:w-[95%]  xs:w-[95%%] max-w-[98%] mx-auto'>
                 {/* Heading */}
                 <div className='flex justify-between    mx-auto  pl-5 pr-10' >
-                    <h3 className='text-[#000] font-[500] leading-[normal] tracking-[0.6px] 2xl:text-[30px] xl:text-[27px] lg:text-[24px] md:text-[21px] sm:text-[18px] xs:text-[15px] '>Get choice of your course</h3>
+                    <h3 className='text-[#000] font-[500] leading-[normal] tracking-[0.6px] 2xl:text-[30px] xl:text-[27px] lg:text-[24px] md:text-[21px] sm:text-[18px] xs:text-[15px] '>Recommended for you</h3>
                     <p className='text-[#49BBBD] 2xl:text-[20px] xl:text-[18px]  lg:text-[16px]  md:text-[14px]  sm:text-[12px] xs:text-[10px] font-[700] leading-[normal]'>See all</p>
                 </div>
 

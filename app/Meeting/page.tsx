@@ -71,7 +71,7 @@ const MeetingPage = () => {
                             aria-label="Slide 3"></button>
                     </div>
 
-                    <div className='border-2 p-3 rounded-2xl border-[#49BBBD4D] mt-3'>
+                    <div className='border-2 py-3 rounded-2xl border-[#49BBBD4D] mt-3 px-6'>
                         <div className='flex justify-between '>
                             <p className='text-[18px] leading-[normal] font-medium text-[#252641]'>Get Started</p>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={4.5} stroke="currentColor" className="w-6 h-6 font-medium">
@@ -132,7 +132,7 @@ const MeetingPage = () => {
                             <p>2. lorem ipsumm dolor </p>
                             <div className='flex '>
                                 <p className='mr-2'>20:00</p>
-                                <img src="/Meeting/lock.svg" className='w-5' alt="" />
+                                <img src="/Meeting/lock.svg" className='w-[14px]' alt="" />
 
 
                             </div>
@@ -145,12 +145,12 @@ const MeetingPage = () => {
                             <p>3. lorem ipsumm dolor amet </p>
                             <div className='flex '>
                                 <p className='mr-2'>30:00</p>
-                                <img src="/Meeting/lock.svg" className='w-5' alt="" />
+                                <img src="/Meeting/lock.svg" className='w-[14px]' alt="" />
                             </div>
                         </div>
                     </div>
 
-                    <div className='border-2 p-3 rounded-2xl border-[#49BBBD4D] mt-3'>
+                    <div className='border-2 py-3 px-6 rounded-2xl border-[#49BBBD4D] mt-3'>
                         <div className='flex justify-between '>
                             <p className='text-[18px] leading-[normal] font-medium text-[#252641]'>using Illustrator</p>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={4.5} stroke="currentColor" className="w-6 h-6">
@@ -175,7 +175,7 @@ const MeetingPage = () => {
 
                         </div>
                     </div>
-                    <div className='border-2 p-3 rounded-2xl border-[#49BBBD4D] mt-3'>
+                    <div className='border-2 py-3 px-6 rounded-2xl border-[#49BBBD4D] mt-3'>
                         <div className='flex justify-between '>
                             <p  className='text-[18px] leading-[normal] font-medium text-[#252641]'>What is Pandas?</p>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={4.5} stroke="currentColor" className="w-6 h-6">
@@ -201,7 +201,7 @@ const MeetingPage = () => {
                         </div>
                     </div>
 
-                    <div className='border-2 p-3 rounded-2xl border-[#49BBBD4D] mt-3'>
+                    <div className='border-2 py-3 px-6 rounded-2xl border-[#49BBBD4D] mt-3'>
                         <div className='flex justify-between '>
                             <p  className='text-[18px] leading-[normal] font-medium text-[#252641]'>Work with Numpy</p>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={4.5} stroke="currentColor" className="w-6 h-6">
@@ -232,7 +232,7 @@ const MeetingPage = () => {
 
                 </div>
                 <br />
-                <div className='bg-white  rounded-2xl p-5 text-center 2xl:w-[498px] w-auto '>
+                <div className='bg-white  rounded-2xl p-5 text-center 2xl:w-[498px] w-auto !h-[470px] flex flex-col justify-center'>
                     <div className='flex justify-between'>
                         <p className='text-3xl font-semibold'>Book for you</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#49BBBD]">

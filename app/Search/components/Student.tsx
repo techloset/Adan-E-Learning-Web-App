@@ -59,18 +59,18 @@ const Student = () => {
 
             <div className='lg:flex lg:flex-col justify-end'>
                 <img alt="images" src="/Search/Creator/1.png"
-                    className="mb-2 w-20 h-20 inline-block rounded-full p-3 lg:mx-3 "
+                    className="mb-2 w-[79px] h-[79px] inline-block rounded-full p-3 lg:mx-3 "
                 />
                 <img alt="images" src="/Search/Creator/2.png"
-                    className="mb-2 w-20 h-20 inline-block rounded-full p-3 lg:mx-3 "
+                    className="mb-2 w-[79px] h-[79px]  inline-block rounded-full p-3 lg:mx-3 "
                 />
 
                 <img alt="images" src="/Search/Creator/3.png"
-                    className="mb-2 w-20 h-20 inline-block rounded-full p-3 lg:mx-3 "
+                    className="mb-2 w-[79px] h-[79px]  inline-block rounded-full p-3 lg:mx-3 "
                 />
 
                 <img alt="images" src="/Search/Creator/4.png"
-                    className="mb-2 w-20 h-20 inline-block rounded-full p-3 lg:mx-3 "
+                    className="mb-2 w-[79px] h-[79px]  inline-block rounded-full p-3 lg:mx-3 "
                 />
             </div>
 

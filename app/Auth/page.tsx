@@ -48,9 +48,9 @@ const Authpage = () => {
           <button className={`${variant == "LOGIN" ? "bg-[#49BBBD]" : ""} text-[#fff] font-[500] text-[16px] leading-[normal]  rounded-[33px] h-[40px] 2xl:w-[146px] xl:w-[146px] lg:w-[146px] md:w-[139.787px]  sm:w-[139.787px]  xs:w-[139.787px] flex items-center text-center ju justify-center`} onClick={toggleVariant}>Login</button>
           <button className={`${variant == "REGISTER" ? "bg-[#49BBBD]" : ""} text-[#fff] font-[500] text-[16px] h-[40px] 2xl:w-[146px] xl:w-[146px] lg:w-[146px] md:w-[139.787px]  sm:w-[139.787px]  xs:w-[139.787px] leading-[normal] rounded-[33px]  flex items-center text-center  justify-center`} onClick={toggleVariant}>Register</button>
         </div>
-        <h5 className='mt-16 mx-2 flex items-center justify-center text-[#5B5B5B] text-[16px] font-[400] leading-[normal] max-w-[454px] min-w-[331px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+        <h5 className='mt-10 mx-2 flex items-center justify-center  text-[#5B5B5B] text-[16px] font-[400] leading-[normal] 2xl:w-[454px] xl:w-[454px] lg:w-[454px] md:w-[331px] xs:w-[331px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
         {/* AuthForm */}
-        <form className='mt-10 space-y-9'>
+        <form className='mt-7 space-y-9'>
           {variant == "REGISTER" && (
             <Input
               id="email"

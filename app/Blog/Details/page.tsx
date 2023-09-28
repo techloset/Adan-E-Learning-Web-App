@@ -39,8 +39,8 @@ const Detailpage = () => {
                     </div>
                     <hr className='bg-[#696984] h-[0.5px] mt-[2rem]' />
                     <div className='flex justify-between items-center mt-5'>
-                        <div className='flex gap-2'>
-                            <div className='w-[77px] h-[77px] rounded-[6px] bg-[#D9D9D9]'>
+                        <div className='flex gap-6'>
+                            <div className='w-[77px] h-[77px] rounded-[6px] bg-[#D9D9D9] '>
                                 <Image src="/Profile/Profile.svg" alt='' height={300} width={300} className='w-[77px] h-[77px]' />
                             </div>
                             <div className='flex flex-col justify-between py-3'>

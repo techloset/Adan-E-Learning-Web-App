@@ -9,7 +9,7 @@ const Dashboard = () => {
                                 type="text"
 
                                 placeholder="Search your favourite course"
-                                className="w-full h-[73px]  pl-6 md:pl-16 pr-16 py-2 border   text-base md:text-xl border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                                className="w-full h-[73px]  pl-6 md:pl-16 pr-16 py-2 border   text-base md:text-xl border-gray-300 rounded-[10px] focus:outline-none focus:border-blue-500"
                             />
                             <button className="absolute lg:text-2xl font-bold right-1 h-[63px] top-1 px-4 lg:px-10 bg-[#49BBBD] text-white rounded-md">
                                 Search
@@ -29,7 +29,7 @@ const Dashboard = () => {
                     <div className="relative">
                         <div className="relative">
                             <select
-                                className="block text-center font-semibold h-[73px] 2xl:w-[170px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full  py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
+                                className="block text-center font-semibold h-[73px] 2xl:w-[170px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full  py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-[10px] shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
                             >
                                 <option value="" className="">
                                     Subject
@@ -58,7 +58,7 @@ const Dashboard = () => {
 
                     <div className="relative ">
                         <select
-                            className="block h-[73px] text-center font-semibold 2xl:w-[170px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full   py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
+                            className="block h-[73px] text-center font-semibold 2xl:w-[170px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full   py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-[10px] shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
                         >
                             <option value="" className="">
                                 Partner
@@ -85,7 +85,7 @@ const Dashboard = () => {
                     <div className="relative">
                         <select
 
-                            className="block h-[73px] text-center font-semibold 2xl:w-[192px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full  py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
+                            className="block h-[73px] text-center font-semibold 2xl:w-[192px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full  py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-[10px] shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
                         >
                             <option value="" className="">
                                 Program
@@ -110,7 +110,7 @@ const Dashboard = () => {
 
                     <div className="relative">
                         <select
-                            className="block h-[73px] text-center font-semibold  2xl:w-[209px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
+                            className="block h-[73px] text-center font-semibold  2xl:w-[209px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-[10px] shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
                         >
                             <option value="" className="">
                                 Language
@@ -137,7 +137,7 @@ const Dashboard = () => {
                     <div className="relative">
                         <select
 
-                            className="block h-[73px] text-center font-semibold   2xl:w-[216px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
+                            className="block h-[73px] text-center font-semibold   2xl:w-[216px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-[10px] shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
                         >
                             <option value="" className="">
                                 Availability
@@ -164,7 +164,7 @@ const Dashboard = () => {
 
                     <div className="relative">
                         <select
-                            className="block h-[73px] text-center font-semibold 2xl:w-[267px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
+                            className="block h-[73px] text-center font-semibold 2xl:w-[267px] 2xl:h-[73px] xl:w-full xl:h-full xs:w-full xs:h-full py-2 pl-4 pr-12 border border-gray-300 bg-white rounded-[10px] shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none"
                         >
                             <option value="" className="">
                                 Learning Type

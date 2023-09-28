@@ -213,7 +213,7 @@ const Detailspage = () => {
 
               </div>
               <hr className='bg-[#696984] my-7' />
-              <h1 className='text-[#000] font-semibold leading-[normal] tracking-[0.6px] text-[30px] text-left'>This Course included</h1>
+              <h1 className='text-[#000] font-semibold leading-[normal] tracking-[0.6px] text-[30px] text-left'>Training 5 or more people</h1>
               <p className='text-[#696984] text-[14px] leading-[180%] tracking-[0.28px] my-3'>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
               <hr className='bg-[#696984] my-5' />
               <h1 className='text-[#000] font-semibold leading-[normal] tracking-[0.6px] text-[30px] text-left'>Share this course</h1>

@@ -84,7 +84,7 @@ const Literaturepage = () => {
                     <br />
                     <div className="bg-cover  bg-center mt-5 xl:w-[75%] lg:mt-0 rounded-lg overflow-hidden"
                     >
-                        <div className=" bg-white  bg-opacity-80 p-5 2xl:p-12 h-full flex flex-col justify-end">
+                        <div className=" bg-white rounded-[20px] bg-opacity-80 p-5 2xl:p-12 h-full flex flex-col justify-end">
                             <div className='flex flex-col md:flex-row  justify-between'>
                                 <p className='text-black tracking-[0.6px] text-[30px] leading-[normal] font-medium '>John Anderson</p>
                                 <button className='text-white py-2 px-2 flex justify-center items-center font-bold leading-[normal] rounded-xl text-2xl bg-[#49BBBD] w-[183.163px] h-[63px]'>Enroll Now</button>
